@@ -5,18 +5,11 @@ export const data: Equipment[] = [
   {
     name: 'Everburn Blade',
     location: (
-      <ul>
-        <li>
-          Looted from <WikiLink>Commander Zhalk</WikiLink> at the helm of the <WikiLink>Nautiloid</WikiLink> during the{' '}
-          <WikiLink>Prologue</WikiLink>.
-          <ul>
-            <li>
-              Can also be obtained by casting <WikiLink>Command (Drop)</WikiLink> on Commander Zhalk instead of killing
-              him, though his chance of succeeding the{' '}
-            </li>
-          </ul>
-        </li>
-      </ul>
+      <div>
+        Looted from <WikiLink>Commander Zhalk</WikiLink> at the helm of the <WikiLink>Nautiloid</WikiLink> during the{' '}
+        <WikiLink>Prologue</WikiLink>. Can also be obtained by casting <WikiLink>Command (Drop)</WikiLink> on Commander
+        Zhalk instead of killing him, though his chance of succeeding the <WikiLink>Saving throw</WikiLink> is high.
+      </div>
     ),
   },
   {
@@ -58,7 +51,7 @@ export const data: Equipment[] = [
     name: 'Gloves of Missile Snaring',
     location: (
       <div>
-        These gloves are sold by <WikiLink>Arron</WikiLink> in the <WikiLink>Druid Grove</WikiLink>.
+        Sold by <WikiLink>Arron</WikiLink> in the <WikiLink>Druid Grove</WikiLink>.
       </div>
     ),
   },
@@ -66,7 +59,7 @@ export const data: Equipment[] = [
     name: 'Ring of Flinging',
     location: (
       <div>
-        Sold by <WikiLink>Arron</WikiLink> in the <WikiLink>Druid Grove</WikiLink>
+        Sold by <WikiLink>Arron</WikiLink> in the <WikiLink>Druid Grove</WikiLink>.
       </div>
     ),
   },
@@ -74,7 +67,7 @@ export const data: Equipment[] = [
     name: 'Hedge Wanderer Armour',
     location: (
       <div>
-        Sold by <WikiLink>Arron</WikiLink> in the <WikiLink>Druid Grove</WikiLink>
+        Sold by <WikiLink>Arron</WikiLink> in the <WikiLink>Druid Grove</WikiLink>.
       </div>
     ),
   },
@@ -82,7 +75,7 @@ export const data: Equipment[] = [
     name: 'Rain Dancer',
     location: (
       <div>
-        Sold by <WikiLink>Arron</WikiLink> in the <WikiLink>Druid Grove</WikiLink>
+        Sold by <WikiLink>Arron</WikiLink> in the <WikiLink>Druid Grove</WikiLink>.
       </div>
     ),
   },
@@ -90,7 +83,7 @@ export const data: Equipment[] = [
     name: "Dragon's Grasp",
     location: (
       <div>
-        This weapon can be bought from <WikiLink>Arron</WikiLink> in the <WikiLink>Druid Grove</WikiLink>.
+        Sold by <WikiLink>Arron</WikiLink> in the <WikiLink>Druid Grove</WikiLink>.
       </div>
     ),
   },
@@ -98,7 +91,7 @@ export const data: Equipment[] = [
     name: 'Spellthief',
     location: (
       <div>
-        This weapon can be bought from <WikiLink>Arron</WikiLink> in the <WikiLink>Druid Grove</WikiLink>.
+        Sold by <WikiLink>Arron</WikiLink> in the <WikiLink>Druid Grove</WikiLink>.
       </div>
     ),
   },
@@ -115,7 +108,7 @@ export const data: Equipment[] = [
     name: 'Safeguard Shield',
     location: (
       <div>
-        Sold by <WikiLink>Dammon</WikiLink> in the <WikiLink>Druid Grove</WikiLink>
+        Sold by <WikiLink>Dammon</WikiLink> in the <WikiLink>Druid Grove</WikiLink>.
       </div>
     ),
   },
@@ -123,7 +116,7 @@ export const data: Equipment[] = [
     name: 'Hunting Shortbow',
     location: (
       <div>
-        Purchased from <WikiLink>Dammon</WikiLink> in <WikiLink>Druid Grove</WikiLink>.
+        Sold by <WikiLink>Dammon</WikiLink> in the <WikiLink>Druid Grove</WikiLink>.
       </div>
     ),
   },
@@ -159,32 +152,30 @@ export const data: Equipment[] = [
   {
     name: "Broodmother's Revenge",
     location: (
-      <ul>
-        <li>
-          Looted from <WikiLink>Kagha</WikiLink> either by killing or by knocking her unconscious with non-lethal
-          attacks.
-        </li>
-      </ul>
+      <div>
+        Looted from <WikiLink>Kagha</WikiLink> either by killing or by knocking her unconscious with non-lethal attacks.
+      </div>
     ),
   },
   {
     name: 'Pale Oak',
     location: (
-      <>
-        <div>
+      <ul>
+        <li>
           Obtained as a reward for completing the quest <WikiLink>Investigate Kagha</WikiLink> and both persuading and
-          sparing Kagha, which must be completed before the quest <WikiLink>Rescue the Druid Halsin</WikiLink>. In this
-          scenario, Kagha will give you the Pale Oak.
-        </div>
-        <div>
+          sparing <WikiLink>Kagha</WikiLink>, which must be completed before the quest{' '}
+          <WikiLink>Rescue the Druid Halsin</WikiLink>. In this scenario, Kagha will give you the Pale Oak.
+        </li>
+        <li>
           If Kagha is killed, then all of the shadow druids and rogue Emerald Grove druids must also be defeated
-          including Loic and Marcoryl. If Marcoryl isn't in the main chamber, he will likely be in the Servant's
-          Quarters and will attack on sight after Khaga is defeated. In this scenario, Rath will give you the Pale Oak.
-        </div>
-        <div>
+          including <WikiLink>Loic</WikiLink> and <WikiLink>Marcoryl</WikiLink>. If Marcoryl isn't in the main chamber,
+          he will likely be in the Servant's Quarters and will attack on sight after Khaga is defeated. In this
+          scenario, Rath will give you the Pale Oak.
+        </li>
+        <li>
           This reward is available only to <WikiLink>Druids</WikiLink>.
-        </div>
-      </>
+        </li>
+      </ul>
     ),
   },
   {
@@ -308,12 +299,10 @@ export const data: Equipment[] = [
   {
     name: 'Very Heavy Greataxe',
     location: (
-      <ul>
-        <li>
-          Looted from <WikiLink>Fezzerk</WikiLink> in front of the windmill in the <WikiLink>Blighted Village</WikiLink>
-          , or later in <WikiLink>Moonrise Towers</WikiLink> if he was spared in the village.
-        </li>
-      </ul>
+      <div>
+        Looted from <WikiLink>Fezzerk</WikiLink> in front of the windmill in the <WikiLink>Blighted Village</WikiLink>,
+        or later in <WikiLink>Moonrise Towers</WikiLink> if he was spared in the village.
+      </div>
     ),
   },
   {
@@ -387,11 +376,9 @@ export const data: Equipment[] = [
   {
     name: 'Wood Woad Shield',
     location: (
-      <ul>
-        <li>
-          Can be looted from <WikiLink>Wood Woads</WikiLink> in the <WikiLink>Sunlit Wetlands</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Can be looted from <WikiLink>Wood Woads</WikiLink> in the <WikiLink>Sunlit Wetlands</WikiLink>.
+      </div>
     ),
   },
   {
@@ -439,13 +426,11 @@ export const data: Equipment[] = [
   {
     name: 'Sword of Justice',
     location: (
-      <ul>
-        <li>
-          Looted from <WikiLink>Anders</WikiLink> in the <WikiLink>Risen Road Toll House</WikiLink>{' '}
-          <span>X: 110 Y: 560</span> or rewarded by him for killing <WikiLink>Karlach</WikiLink> in{' '}
-          <WikiLink>Hunt the Devil</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Looted from <WikiLink>Anders</WikiLink> in the <WikiLink>Risen Road Toll House</WikiLink>{' '}
+        <span>X: 110 Y: 560</span> or rewarded by him for killing <WikiLink>Karlach</WikiLink> in{' '}
+        <WikiLink>Hunt the Devil</WikiLink>.
+      </div>
     ),
   },
   {
@@ -543,51 +528,31 @@ export const data: Equipment[] = [
   {
     name: 'Rupturing Blade',
     location: (
-      <ul>
-        <li>
-          This weapon can be bought from these traders:
-          <ul>
-            <li>
-              <WikiLink>Brem</WikiLink> in the <WikiLink>Zhentarim Hideout</WikiLink> after completing{' '}
-              <WikiLink>Find the Missing Shipment</WikiLink>.
-            </li>
-          </ul>
-        </li>
-      </ul>
+      <div>
+        <WikiLink>Brem</WikiLink> in the <WikiLink>Zhentarim Hideout</WikiLink> after completing{' '}
+        <WikiLink>Find the Missing Shipment</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Doom Hammer',
     location: (
-      <ul>
-        <li>
-          This weapon can be bought from these traders:
-          <ul>
-            <li>
-              <WikiLink>Grat the Trader</WikiLink> in the <WikiLink>Goblin Camp</WikiLink>
-            </li>
-          </ul>
-        </li>
-      </ul>
+      <div>
+        <WikiLink>Grat the Trader</WikiLink> in the <WikiLink>Goblin Camp</WikiLink>
+      </div>
     ),
   },
   {
     name: 'Hamarhraft',
     location: (
-      <ul>
-        <li>
-          Found in a gilded chest in one of the burning rooms on the second story of the inn at{' '}
-          <WikiLink>Waukeen's Rest</WikiLink> <span>X: -85 Y: 631</span>.
-          <ul>
-            <li>
-              This chest can be difficult to get to before the room becomes completely engulfed in flames, so it's
-              recommended to approach in <WikiLink>turn-based mode</WikiLink>. One could also wait the fire out by
-              completing a <WikiLink>long rest</WikiLink> or travelling to a different zone. Be cautious however, as
-              waiting it out will complete the area's timed event and render many local NPCs and quests unavailable.
-            </li>
-          </ul>
-        </li>
-      </ul>
+      <div>
+        Found in a gilded chest in one of the burning rooms on the second story of the inn at{' '}
+        <WikiLink>Waukeen's Rest</WikiLink> <span>X: -85 Y: 631</span>. This chest can be difficult to get to before the
+        room becomes completely engulfed in flames, so it's recommended to approach in{' '}
+        <WikiLink>turn-based mode</WikiLink>. One could also wait the fire out by completing a{' '}
+        <WikiLink>long rest</WikiLink> or travelling to a different zone. Be cautious however, as waiting it out will
+        complete the area's timed event and render many local NPCs and quests unavailable.
+      </div>
     ),
   },
   {
@@ -644,7 +609,7 @@ export const data: Equipment[] = [
     name: 'Gloves of Archery',
     location: (
       <div>
-        Bought from <WikiLink>Grat the Trader</WikiLink> in the <WikiLink>Goblin Camp</WikiLink>.
+        Sold by <WikiLink>Grat the Trader</WikiLink> in the <WikiLink>Goblin Camp</WikiLink>.
       </div>
     ),
   },
@@ -660,7 +625,7 @@ export const data: Equipment[] = [
     name: 'Returning Pike',
     location: (
       <div>
-        This weapon can be bought from <WikiLink>Grat the Trader</WikiLink> in the <WikiLink>Goblin Camp</WikiLink>
+        Sold by <WikiLink>Grat the Trader</WikiLink> in the <WikiLink>Goblin Camp</WikiLink>.
       </div>
     ),
   },
@@ -700,11 +665,9 @@ export const data: Equipment[] = [
   {
     name: "Loviatar's Scourge",
     location: (
-      <ul>
-        <li>
-          Carried by <WikiLink>Abdirak</WikiLink> in the <WikiLink>Shattered Sanctum</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Carried by <WikiLink>Abdirak</WikiLink> in the <WikiLink>Shattered Sanctum</WikiLink>.
+      </div>
     ),
   },
   {
@@ -753,83 +716,65 @@ export const data: Equipment[] = [
   {
     name: 'Blooded Greataxe',
     location: (
-      <ul>
-        <li>
-          This weapon can be bought from the following traders:
-          <ul>
-            <li>
-              <WikiLink>Grat the Trader</WikiLink> in the <WikiLink>Goblin Camp</WikiLink>
-            </li>
-            <li>
-              <WikiLink>Roah Moonglow</WikiLink> in the <WikiLink>Shattered Sanctum</WikiLink>
-            </li>
-          </ul>
-        </li>
-      </ul>
+      <div>
+        This weapon can be bought from the following traders:
+        <ul>
+          <li>
+            <WikiLink>Grat the Trader</WikiLink> in the <WikiLink>Goblin Camp</WikiLink>
+          </li>
+          <li>
+            <WikiLink>Roah Moonglow</WikiLink> in the <WikiLink>Shattered Sanctum</WikiLink>
+          </li>
+        </ul>
+      </div>
     ),
   },
   {
     name: 'Monster Slayer Glaive',
     location: (
-      <ul>
-        <li>
-          This weapon can be bought from these traders:
-          <ul>
-            <li>
-              <WikiLink>Roah Moonglow</WikiLink> in the <WikiLink>Shattered Sanctum</WikiLink>
-            </li>
-          </ul>
-        </li>
-      </ul>
+      <div>
+        This weapon can be bought from these traders:
+        <ul>
+          <li>
+            <WikiLink>Roah Moonglow</WikiLink> in the <WikiLink>Shattered Sanctum</WikiLink>
+          </li>
+        </ul>
+      </div>
     ),
   },
   {
     name: 'Gold Wyrmling Staff',
     location: (
-      <ul>
-        <li>
-          This weapon can be bought from these traders:
-          <ul>
-            <li>
-              <WikiLink>Roah Moonglow</WikiLink> in the <WikiLink>Shattered Sanctum</WikiLink>
-            </li>
-          </ul>
-        </li>
-      </ul>
+      <div>
+        This weapon can be bought from these traders:
+        <ul>
+          <li>
+            <WikiLink>Roah Moonglow</WikiLink> in the <WikiLink>Shattered Sanctum</WikiLink>
+          </li>
+        </ul>
+      </div>
     ),
   },
   {
     name: 'Amulet of Elemental Torment',
     location: (
-      <ul>
-        <li>
-          Previously was sold by <WikiLink>Grat the Trader</WikiLink> in the <WikiLink>Goblin Camp</WikiLink>,{' '}
-          <WikiLink>Brem</WikiLink> in the <WikiLink>Zhentarim Basement</WikiLink>, or{' '}
-          <WikiLink>Roah Moonglow</WikiLink> in <WikiLink>Shattered Sanctum</WikiLink>.
-        </li>
-        <li>
-          As of Patch 3, drops from <WikiLink>Hope</WikiLink> in <WikiLink>House of Hope</WikiLink> (once she is freed
-          and the zone boss is defeated).
-          <sup>
-            [<WikiLink>Needs Verification</WikiLink>]
-          </sup>
-        </li>
-      </ul>
+      <div>
+        Drops from <WikiLink>Hope</WikiLink> in <WikiLink>House of Hope</WikiLink> (once she is freed and the zone boss
+        is defeated).
+      </div>
     ),
   },
   {
     name: 'Bow of Awareness',
     location: (
-      <ul>
-        <li>
-          This weapon can be bought from these traders:
-          <ul>
-            <li>
-              <WikiLink>Roah Moonglow</WikiLink> in the <WikiLink>Shattered Sanctum</WikiLink>
-            </li>
-          </ul>
-        </li>
-      </ul>
+      <div>
+        This weapon can be bought from these traders:
+        <ul>
+          <li>
+            <WikiLink>Roah Moonglow</WikiLink> in the <WikiLink>Shattered Sanctum</WikiLink>
+          </li>
+        </ul>
+      </div>
     ),
   },
   {
@@ -871,12 +816,10 @@ export const data: Equipment[] = [
   {
     name: 'Amulet of Misty Step',
     location: (
-      <ul>
-        <li>
-          In a gilded chest behind the ogre <WikiLink>Polma</WikiLink> in the <WikiLink>Defiled Temple</WikiLink> within
-          the <WikiLink>Goblin Camp</WikiLink> <span>X: 386 Y: 8</span>.
-        </li>
-      </ul>
+      <div>
+        In a gilded chest behind the ogre <WikiLink>Polma</WikiLink> in the <WikiLink>Defiled Temple</WikiLink> within
+        the <WikiLink>Goblin Camp</WikiLink> <span>X: 386 Y: 8</span>.
+      </div>
     ),
   },
   {
@@ -892,7 +835,7 @@ export const data: Equipment[] = [
     name: "Amulet of Selûne's Chosen",
     location: (
       <div>
-        Found in <WikiLink>Dror Ragzlin</WikiLink>'s treasure pile in the <WikiLink>Shattered Sanctum</WikiLink>
+        Found in <WikiLink>Dror Ragzlin</WikiLink>'s treasure pile in the <WikiLink>Shattered Sanctum</WikiLink>{' '}
         <span>X: 296 Y: 71</span>.
       </div>
     ),
@@ -918,12 +861,10 @@ export const data: Equipment[] = [
   {
     name: 'Spidersilk Armour',
     location: (
-      <ul>
-        <li>
-          Worn by <WikiLink>Minthara</WikiLink> when recruited or dropped by her in the{' '}
-          <WikiLink>Shattered Sanctum</WikiLink>
-        </li>
-      </ul>
+      <div>
+        Worn by <WikiLink>Minthara</WikiLink> when recruited or dropped by her in the{' '}
+        <WikiLink>Shattered Sanctum</WikiLink>
+      </div>
     ),
   },
   {
@@ -999,11 +940,9 @@ export const data: Equipment[] = [
   {
     name: 'Bloodguzzler Garb',
     location: (
-      <ul>
-        <li>
-          Dropped by the <WikiLink>Bulette</WikiLink> in the <WikiLink>Underdark</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Dropped by the <WikiLink>Bulette</WikiLink> in the <WikiLink>Underdark</WikiLink>.
+      </div>
     ),
   },
   {
@@ -1102,12 +1041,10 @@ export const data: Equipment[] = [
   {
     name: 'Light of Creation',
     location: (
-      <ul>
-        <li>
-          Looted from <WikiLink>Bernard</WikiLink> at the top floor of the <WikiLink>Arcane Tower</WikiLink> in the{' '}
-          <WikiLink>Underdark</WikiLink> <span>X: -38 Y: -284</span>.
-        </li>
-      </ul>
+      <div>
+        Looted from <WikiLink>Bernard</WikiLink> at the top floor of the <WikiLink>Arcane Tower</WikiLink> in the{' '}
+        <WikiLink>Underdark</WikiLink> <span>X: -38 Y: -284</span>.
+      </div>
     ),
   },
   {
@@ -1146,7 +1083,7 @@ export const data: Equipment[] = [
     name: 'Uncovered Mysteries',
     location: (
       <div>
-        This amulet can be found inside a small gilded chest on the <WikiLink>Arcane Tower</WikiLink>
+        This amulet can be found inside a small gilded chest on the <WikiLink>Arcane Tower</WikiLink>{' '}
         <span>X: -48 Y: -282</span> basement floor's mezzanine, right next to the elevator exit.
       </div>
     ),
@@ -1180,8 +1117,7 @@ export const data: Equipment[] = [
     name: 'Amulet of the Unworthy',
     location: (
       <div>
-        Carried by a Minotaur wandering the <WikiLink>Underdark</WikiLink>
-        <span>X: 160 Y: -147</span>.
+        Carried by a Minotaur wandering the <WikiLink>Underdark</WikiLink> <span>X: 160 Y: -147</span>.
       </div>
     ),
   },
@@ -1207,23 +1143,19 @@ export const data: Equipment[] = [
   {
     name: 'Pearl of Power Amulet',
     location: (
-      <ul>
-        <li>
-          Sold by <WikiLink>Omeluum</WikiLink> in the <WikiLink>Ebonlake Grotto</WikiLink> after completing{' '}
-          <WikiLink>Help Omeluum investigate the parasite</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Sold by <WikiLink>Omeluum</WikiLink> in the <WikiLink>Ebonlake Grotto</WikiLink> after completing{' '}
+        <WikiLink>Help Omeluum investigate the parasite</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Boots of Stormy Clamour',
     location: (
-      <ul>
-        <li>
-          Sold by <WikiLink>Omeluum</WikiLink> in the <WikiLink>Ebonlake Grotto</WikiLink> after completing{' '}
-          <WikiLink>Help Omeluum investigate the parasite</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Sold by <WikiLink>Omeluum</WikiLink> in the <WikiLink>Ebonlake Grotto</WikiLink> after completing{' '}
+        <WikiLink>Help Omeluum investigate the parasite</WikiLink>.
+      </div>
     ),
   },
   {
@@ -1280,7 +1212,7 @@ export const data: Equipment[] = [
     name: 'Cinder Shoes',
     location: (
       <div>
-        Sold by <WikiLink>Blurg</WikiLink> in the <WikiLink>Myconid Colony</WikiLink>, <WikiLink>Underdark</WikiLink>
+        Sold by <WikiLink>Blurg</WikiLink> in the <WikiLink>Myconid Colony</WikiLink>.
       </div>
     ),
   },
@@ -1326,15 +1258,10 @@ export const data: Equipment[] = [
   {
     name: 'Corrosive Flail',
     location: (
-      <>
-        <div>May appear in the inventory of the following traders:</div>
-        <ul>
-          <li>
-            <WikiLink>Derryth Bonecloak</WikiLink> in the <WikiLink>Ebonlake Grotto</WikiLink> in the{' '}
-            <WikiLink>Underdark</WikiLink>.
-          </li>
-        </ul>
-      </>
+      <div>
+        <WikiLink>Derryth Bonecloak</WikiLink> in the <WikiLink>Ebonlake Grotto</WikiLink> in the{' '}
+        <WikiLink>Underdark</WikiLink>.
+      </div>
     ),
   },
   {
@@ -1348,15 +1275,10 @@ export const data: Equipment[] = [
   {
     name: 'Ring of Jumping',
     location: (
-      <>
-        <div>May appear in the inventory of the following traders:</div>
-        <ul>
-          <li>
-            <WikiLink>Derryth Bonecloak</WikiLink> in the <WikiLink>Myconid Colony</WikiLink> in the{' '}
-            <WikiLink>Underdark</WikiLink>.
-          </li>
-        </ul>
-      </>
+      <div>
+        <WikiLink>Derryth Bonecloak</WikiLink> in the <WikiLink>Myconid Colony</WikiLink> in the{' '}
+        <WikiLink>Underdark</WikiLink>.
+      </div>
     ),
   },
   {
@@ -1391,14 +1313,12 @@ export const data: Equipment[] = [
   {
     name: 'Sussur Greatsword',
     location: (
-      <ul>
-        <li>
-          This weapon is obtained as part of the quest <WikiLink>Finish the Masterwork Weapon</WikiLink> in the{' '}
-          <WikiLink>Blighted Village</WikiLink> by combining the <WikiLink>Greatsword</WikiLink> with{' '}
-          <WikiLink>Sussur Tree Bark</WikiLink> in the <WikiLink>Blacksmith's Forge</WikiLink> found in one of the
-          buildings in the village.
-        </li>
-      </ul>
+      <div>
+        This weapon is obtained as part of the quest <WikiLink>Finish the Masterwork Weapon</WikiLink> in the{' '}
+        <WikiLink>Blighted Village</WikiLink> by combining the <WikiLink>Greatsword</WikiLink> with{' '}
+        <WikiLink>Sussur Tree Bark</WikiLink> in the <WikiLink>Blacksmith's Forge</WikiLink> found in one of the
+        buildings in the village.
+      </div>
     ),
   },
   {
@@ -1433,12 +1353,10 @@ export const data: Equipment[] = [
   {
     name: "Exterminator's Axe",
     location: (
-      <ul>
-        <li>
-          Looted from <WikiLink>Gekh Coal</WikiLink> in <WikiLink>Decrepit Village</WikiLink>,{' '}
-          <WikiLink>Underdark</WikiLink> <span>X: 14 Y: -196</span>.
-        </li>
-      </ul>
+      <div>
+        Looted from <WikiLink>Gekh Coal</WikiLink> in <WikiLink>Decrepit Village</WikiLink>,{' '}
+        <WikiLink>Underdark</WikiLink> <span>X: 14 Y: -196</span>.
+      </div>
     ),
   },
   {
@@ -1504,18 +1422,11 @@ export const data: Equipment[] = [
   {
     name: "Jorgoral's Greatsword",
     location: (
-      <ul>
-        <li>
-          Looted from <WikiLink>Corsair Greymon</WikiLink> on <WikiLink>Ebonlake</WikiLink>,{' '}
-          <WikiLink>Grymforge</WikiLink>.
-          <ul>
-            <li>
-              If not engaged on the lake, he can sell this item at his trader spot in Grymforge{' '}
-              <span>X: -632 Y: 326</span>.
-            </li>
-          </ul>
-        </li>
-      </ul>
+      <div>
+        Looted from <WikiLink>Corsair Greymon</WikiLink> on <WikiLink>Ebonlake</WikiLink>,{' '}
+        <WikiLink>Grymforge</WikiLink>. If not engaged on the lake, he can sell this item at his trader spot in
+        Grymforge <span>X: -632 Y: 326</span>.
+      </div>
     ),
   },
   {
@@ -1626,7 +1537,6 @@ export const data: Equipment[] = [
           Two halberds can be found laying around the edge of the lava lake in <WikiLink>Grymforge</WikiLink>{' '}
           <span>X: -643 Y: 215</span> &amp; <span>X: -601 Y: 199</span>.
         </li>
-        <li>UUID: c86a3bf4-16b4-4d76-a33d-3df5c265aca8</li>
       </ul>
     ),
   },
@@ -1695,11 +1605,9 @@ export const data: Equipment[] = [
   {
     name: 'Cap of Wrath',
     location: (
-      <ul>
-        <li>
-          Dropped by <WikiLink>Thudd</WikiLink> in <WikiLink>Grymforge</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Dropped by <WikiLink>Thudd</WikiLink> in <WikiLink>Grymforge</WikiLink>.
+      </div>
     ),
   },
   {
@@ -1722,12 +1630,10 @@ export const data: Equipment[] = [
   {
     name: 'Dark Justiciar Mask',
     location: (
-      <ul>
-        <li>
-          Looted from a skeleton in <WikiLink>Grymforge</WikiLink> near the Ancient Forge <WikiLink>Waypoint</WikiLink>{' '}
-          <span>X: -606 Y: 282</span>.
-        </li>
-      </ul>
+      <div>
+        Looted from a skeleton in <WikiLink>Grymforge</WikiLink> near the Ancient Forge <WikiLink>Waypoint</WikiLink>{' '}
+        <span>X: -606 Y: 282</span>.
+      </div>
     ),
   },
   {
@@ -1858,17 +1764,9 @@ export const data: Equipment[] = [
   {
     name: 'Cacophony',
     location: (
-      <ul>
-        <li>
-          This weapon can be bought from these traders:
-          <ul>
-            <li>
-              Sold by <WikiLink>Lady Esther</WikiLink> at the Rosymorn Monastery Trail, after taking the Mountain Path
-              and starting Act Two.
-            </li>
-          </ul>
-        </li>
-      </ul>
+      <div>
+        Sold by <WikiLink>Lady Esther</WikiLink> at the Rosymorn Monastery Trail, after taking the Mountain Path
+      </div>
     ),
   },
   {
@@ -1910,8 +1808,7 @@ export const data: Equipment[] = [
     name: 'Hoppy',
     location: (
       <div>
-        Sold by <WikiLink>Lady Esther</WikiLink> in the <WikiLink>Rosymorn Monastery Trail</WikiLink> area of{' '}
-        <WikiLink>Act One</WikiLink>.
+        Sold by <WikiLink>Lady Esther</WikiLink> at <WikiLink>Rosymorn Monastery Trail</WikiLink>
       </div>
     ),
   },
@@ -1927,28 +1824,18 @@ export const data: Equipment[] = [
   {
     name: 'Ceremonial Warhammer',
     location: (
-      <ul>
-        <li>
-          This weapon can be found at:
-          <ul>
-            <li>
-              <WikiLink>Rosymorn Monastery</WikiLink> in the <WikiLink>Giant Eagle's</WikiLink> nest{' '}
-              <span>X: 80 Y: 44</span>
-            </li>
-          </ul>
-        </li>
-      </ul>
+      <div>
+        <WikiLink>Rosymorn Monastery</WikiLink> in the <WikiLink>Giant Eagle's</WikiLink> nest <span>X: 80 Y: 44</span>
+      </div>
     ),
   },
   {
     name: 'Holy Lance Helm',
     location: (
-      <ul>
-        <li>
-          Found in a painted chest in <WikiLink>Rosymorn Monastery</WikiLink> <span>X: 120 Y: 35</span>, accessible from
-          the top level.
-        </li>
-      </ul>
+      <div>
+        Found in a painted chest in <WikiLink>Rosymorn Monastery</WikiLink> <span>X: 120 Y: 35</span>, accessible from
+        the top level.
+      </div>
     ),
   },
   {
@@ -2013,7 +1900,7 @@ export const data: Equipment[] = [
     name: 'Vital Conduit Boots',
     location: (
       <div>
-        Act 2: Sold by <WikiLink>A'jak'nir Jeera</WikiLink> in <WikiLink>Cr&#xe8;che Y'llek</WikiLink>.
+        Sold by <WikiLink>A'jak'nir Jeera</WikiLink> in <WikiLink>Cr&#xe8;che Y'llek</WikiLink>.
       </div>
     ),
   },
@@ -2069,22 +1956,18 @@ export const data: Equipment[] = [
   {
     name: "Aberration Hunters' Amulet",
     location: (
-      <ul>
-        <li>
-          Dropped by <WikiLink>Ghustil Stornugoss</WikiLink> in <WikiLink>Cr&#xe8;che Y'llek</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Dropped by <WikiLink>Ghustil Stornugoss</WikiLink> in <WikiLink>Cr&#xe8;che Y'llek</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Soulbreaker Greatsword',
     location: (
-      <ul>
-        <li>
-          Looted from <WikiLink>Kith'rak Therezzyn</WikiLink> in <WikiLink>Captain's Quarters</WikiLink>,{' '}
-          <WikiLink>Cr&#xe8;che Y'llek</WikiLink> <span>X: 1408 Y: -763</span>.
-        </li>
-      </ul>
+      <div>
+        Looted from <WikiLink>Kith'rak Therezzyn</WikiLink> in <WikiLink>Captain's Quarters</WikiLink>,{' '}
+        <WikiLink>Cr&#xe8;che Y'llek</WikiLink> <span>X: 1408 Y: -763</span>.
+      </div>
     ),
   },
   {
@@ -2100,12 +1983,10 @@ export const data: Equipment[] = [
   {
     name: 'Gloves of Belligerent Skies',
     location: (
-      <ul>
-        <li>
-          Inside an elegant chest in the <WikiLink>Inquisitor's Chamber</WikiLink> of{' '}
-          <WikiLink>Cr&#xe8;che Y'llek</WikiLink>, along the southern wall of the room, on the eastern side.
-        </li>
-      </ul>
+      <div>
+        Inside an elegant chest in the <WikiLink>Inquisitor's Chamber</WikiLink> of{' '}
+        <WikiLink>Cr&#xe8;che Y'llek</WikiLink>, along the southern wall of the room, on the eastern side.
+      </div>
     ),
   },
   {
@@ -2119,23 +2000,19 @@ export const data: Equipment[] = [
   {
     name: 'Diadem of Arcane Synergy',
     location: (
-      <ul>
-        <li>
-          Looted from <WikiLink>Ardent Jhe'rezath</WikiLink> in <WikiLink>Inquisitor's Chamber</WikiLink>,{' '}
-          <WikiLink>Cr&#xe8;che Y'llek</WikiLink>
-        </li>
-      </ul>
+      <div>
+        Looted from <WikiLink>Ardent Jhe'rezath</WikiLink> in <WikiLink>Inquisitor's Chamber</WikiLink>,{' '}
+        <WikiLink>Cr&#xe8;che Y'llek</WikiLink>
+      </div>
     ),
   },
   {
     name: 'The Skinburster',
     location: (
-      <ul>
-        <li>
-          Can be found leaning against a display case in <WikiLink>Inquisitor's Chamber</WikiLink>,{' '}
-          <WikiLink>Cr&#xe8;che Y'llek</WikiLink> <span>X: 1383 Y: -659</span>.
-        </li>
-      </ul>
+      <div>
+        Can be found leaning against a display case in <WikiLink>Inquisitor's Chamber</WikiLink>,{' '}
+        <WikiLink>Cr&#xe8;che Y'llek</WikiLink> <span>X: 1383 Y: -659</span>.
+      </div>
     ),
   },
   {
@@ -2181,17 +2058,11 @@ export const data: Equipment[] = [
   {
     name: 'Thermoarcanic Gloves',
     location: (
-      <ul>
-        <li>
-          These gloves can be looted from <WikiLink>Kansif</WikiLink>. Kansif can be found in the following locations:
-          <ul>
-            <li>
-              The <WikiLink>Ruined Battlefield</WikiLink> <span>X: 4 Y: -28</span> while accompanying the Harpers from
-              the <WikiLink>Last Light Inn</WikiLink> on an ambush.
-            </li>
-          </ul>
-        </li>
-      </ul>
+      <div>
+        These gloves can be looted from <WikiLink>Kansif</WikiLink>. In the <WikiLink>Ruined Battlefield</WikiLink>{' '}
+        <span>X: 4 Y: -28</span> while accompanying the Harpers from the <WikiLink>Last Light Inn</WikiLink> on an
+        ambush.
+      </div>
     ),
   },
   {
@@ -2207,19 +2078,15 @@ export const data: Equipment[] = [
   {
     name: 'Hat of Fire Acuity',
     location: (
-      <ul>
-        <li>
-          Carried by the <WikiLink>Strange Ox</WikiLink> in <WikiLink>Dammon</WikiLink>'s blacksmith in the{' '}
-          <WikiLink>Last Light Inn</WikiLink>.
-          <ul>
-            <li>
-              Note: This item can only looted from the <WikiLink>Strange Ox</WikiLink> at the{' '}
-              <WikiLink>Last Light Inn</WikiLink> or at <WikiLink>Rivington</WikiLink>. If it is defeated at the{' '}
-              <WikiLink>Druid Grove</WikiLink> it will not have the item.
-            </li>
-          </ul>
-        </li>
-      </ul>
+      <div>
+        Carried by the <WikiLink>Strange Ox</WikiLink> in <WikiLink>Dammon</WikiLink>'s blacksmith in the{' '}
+        <WikiLink>Last Light Inn</WikiLink>.
+        <div>
+          Note: This item can only looted from the <WikiLink>Strange Ox</WikiLink> at the{' '}
+          <WikiLink>Last Light Inn</WikiLink> or at <WikiLink>Rivington</WikiLink>. If it is defeated at the{' '}
+          <WikiLink>Druid Grove</WikiLink> it will not have the item.
+        </div>
+      </div>
     ),
   },
   {
@@ -2241,23 +2108,20 @@ export const data: Equipment[] = [
     location: (
       <div>
         Hide and Seek quest reward by <WikiLink>Oliver</WikiLink>, House with Flowers in{' '}
-        <WikiLink>Shadow-Cursed Lands</WikiLink>. Can also be obtained by knocking him out or through{' '}
-        <WikiLink>pick-pocketing</WikiLink> at the exact moment the encounter becomes a tactical turn based encounter
-        and before he vanishes or if you can see invisible creatures. Pick-pocketing him does not seem to change how he
-        interacts with the player.
+        <WikiLink>Shadow-Cursed Lands</WikiLink>. Can also be obtained by knocking him out or through pick-pocketing at
+        the exact moment the encounter becomes a tactical turn based encounter and before he vanishes or if you can see
+        invisible creatures. Pick-pocketing him does not seem to change how he interacts with the player.
       </div>
     ),
   },
   {
     name: 'Ring of Mental Inhibition',
     location: (
-      <ul>
-        <li>
-          Can be found inside a locked chest in the <WikiLink>Ruined Battlefield</WikiLink>
-          <span>X: 76 Y: 40</span>, of the <WikiLink>Shadow-Cursed Lands</WikiLink>, just east of the Shadowed
-          Battlefield <WikiLink>Waypoint</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Can be found inside a locked chest in the <WikiLink>Ruined Battlefield</WikiLink> <span>X: 76 Y: 40</span>, of
+        the <WikiLink>Shadow-Cursed Lands</WikiLink>, just east of the Shadowed Battlefield{' '}
+        <WikiLink>Waypoint</WikiLink>.
+      </div>
     ),
   },
   {
@@ -2272,35 +2136,28 @@ export const data: Equipment[] = [
   {
     name: 'Shadow-Cloaked Ring',
     location: (
-      <ul>
-        <li>
-          Can be looted from the <WikiLink>Shadow Mastiff Alpha</WikiLink> in the{' '}
-          <WikiLink>Ruined Battlefield</WikiLink> <span>X: -49 Y: 36</span>. The nearby everburning torches must be
-          destroyed before the Mastiff will appear.
-        </li>
-      </ul>
+      <div>
+        Can be looted from the <WikiLink>Shadow Mastiff Alpha</WikiLink> in the <WikiLink>Ruined Battlefield</WikiLink>{' '}
+        <span>X: -49 Y: 36</span>. The nearby everburning torches must be destroyed before the Mastiff will appear.
+      </div>
     ),
   },
   {
     name: 'Luminous Gloves',
     location: (
-      <ul>
-        <li>
-          The Luminous Gloves are found inside the Potter's Chest in the <WikiLink>Ruined Battlefield</WikiLink>{' '}
-          accessible by jumping. <span>X: -52 Y: 11</span>.
-        </li>
-      </ul>
+      <div>
+        The Luminous Gloves are found inside the Potter's Chest in the <WikiLink>Ruined Battlefield</WikiLink>{' '}
+        accessible by jumping. <span>X: -52 Y: 11</span>.
+      </div>
     ),
   },
   {
     name: 'Ring of Twilight',
     location: (
-      <ul>
-        <li>
-          The Ring of Twilight is found inside a Traveller's Chest hidden behind some pots inside a ruined tower in the{' '}
-          <WikiLink>Ruined Battlefield</WikiLink> <span>X: -34 Y: -12</span>.
-        </li>
-      </ul>
+      <div>
+        The Ring of Twilight is found inside a Traveller's Chest hidden behind some pots inside a ruined tower in the{' '}
+        <WikiLink>Ruined Battlefield</WikiLink> <span>X: -34 Y: -12</span>.
+      </div>
     ),
   },
   {
@@ -2315,12 +2172,10 @@ export const data: Equipment[] = [
   {
     name: 'Ring of Self Immolation',
     location: (
-      <ul>
-        <li>
-          Can be looted from a locked Wooden Chest in the <WikiLink>Ruined Battlefield</WikiLink>{' '}
-          <span>X: 29 Y: 63</span>. If needed, the key is nearby on a skeleton, alongside a note.
-        </li>
-      </ul>
+      <div>
+        Can be looted from a locked Wooden Chest in the <WikiLink>Ruined Battlefield</WikiLink> <span>X: 29 Y: 63</span>
+        . If needed, the key is nearby on a skeleton, alongside a note.
+      </div>
     ),
   },
   {
@@ -2345,23 +2200,16 @@ export const data: Equipment[] = [
     name: 'Incandescent Staff',
     location: (
       <div>
-        Sold by <WikiLink>Quartermaster Talli</WikiLink> in <WikiLink>Last Light Inn</WikiLink>
+        Sold by <WikiLink>Quartermaster Talli</WikiLink> in <WikiLink>Last Light Inn</WikiLink>.
       </div>
     ),
   },
   {
     name: 'Defender Greataxe',
     location: (
-      <ul>
-        <li>
-          This weapon can be bought from the following traders:
-          <ul>
-            <li>
-              <WikiLink>Quartermaster Talli</WikiLink> at the <WikiLink>Last Light Inn</WikiLink>
-            </li>
-          </ul>
-        </li>
-      </ul>
+      <div>
+        Sold by <WikiLink>Quartermaster Talli</WikiLink> in <WikiLink>Last Light Inn</WikiLink>.
+      </div>
     ),
   },
   {
@@ -2376,7 +2224,7 @@ export const data: Equipment[] = [
     name: 'Hat of Uninhibited Kushigo',
     location: (
       <div>
-        Bought from <WikiLink>Quartermaster Talli</WikiLink> at the <WikiLink>Last Light Inn</WikiLink>.
+        Sold by <WikiLink>Quartermaster Talli</WikiLink> in <WikiLink>Last Light Inn</WikiLink>.
       </div>
     ),
   },
@@ -2384,7 +2232,7 @@ export const data: Equipment[] = [
     name: 'Obsidian Laced Robe',
     location: (
       <div>
-        Bought from <WikiLink>Quartermaster Talli</WikiLink> at the <WikiLink>Last Light Inn</WikiLink>.
+        Sold by <WikiLink>Quartermaster Talli</WikiLink> in <WikiLink>Last Light Inn</WikiLink>.
       </div>
     ),
   },
@@ -2392,7 +2240,7 @@ export const data: Equipment[] = [
     name: 'The Mighty Cloth',
     location: (
       <div>
-        Sold by <WikiLink>Quartermaster Talli</WikiLink> at <WikiLink>Last Light Inn</WikiLink>
+        Sold by <WikiLink>Quartermaster Talli</WikiLink> in <WikiLink>Last Light Inn</WikiLink>.
       </div>
     ),
   },
@@ -2400,36 +2248,31 @@ export const data: Equipment[] = [
     name: 'Yuan-Ti Scale Mail',
     location: (
       <div>
-        Sold by <WikiLink>Quartermaster Talli</WikiLink> in <WikiLink>Last Light Inn</WikiLink> in{' '}
-        <WikiLink>Act Two</WikiLink>.
+        Sold by <WikiLink>Quartermaster Talli</WikiLink> in <WikiLink>Last Light Inn</WikiLink>.
       </div>
     ),
   },
   {
     name: 'Shadeclinger Armour',
     location: (
-      <ul>
-        <li>
-          Sold by <WikiLink>Quartermaster Talli</WikiLink> at the <WikiLink>Last Light Inn</WikiLink>
-        </li>
-      </ul>
+      <div>
+        Sold by <WikiLink>Quartermaster Talli</WikiLink> in <WikiLink>Last Light Inn</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Barkskin Armour',
     location: (
-      <ul>
-        <li>
-          Sold by <WikiLink>Quartermaster Talli</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Sold by <WikiLink>Quartermaster Talli</WikiLink> in <WikiLink>Last Light Inn</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Cindersnap Gloves',
     location: (
       <div>
-        Bought from <WikiLink>Quartermaster Talli</WikiLink> at the <WikiLink>Last Light Inn</WikiLink>.
+        Sold by <WikiLink>Quartermaster Talli</WikiLink> in <WikiLink>Last Light Inn</WikiLink>.
       </div>
     ),
   },
@@ -2437,7 +2280,7 @@ export const data: Equipment[] = [
     name: 'Gloves of the Balanced Hands',
     location: (
       <div>
-        Bought from <WikiLink>Quartermaster Talli</WikiLink> at the <WikiLink>Last Light Inn</WikiLink>.
+        Sold by <WikiLink>Quartermaster Talli</WikiLink> in <WikiLink>Last Light Inn</WikiLink>.
       </div>
     ),
   },
@@ -2445,7 +2288,7 @@ export const data: Equipment[] = [
     name: 'Amulet of the Harpers',
     location: (
       <div>
-        Bought from <WikiLink>Quartermaster Talli</WikiLink> at the <WikiLink>Last Light Inn</WikiLink>.
+        Sold by <WikiLink>Quartermaster Talli</WikiLink> in <WikiLink>Last Light Inn</WikiLink>.
       </div>
     ),
   },
@@ -2453,7 +2296,7 @@ export const data: Equipment[] = [
     name: 'Cloak of Protection',
     location: (
       <div>
-        Can purchase from <WikiLink>Quartermaster Talli</WikiLink> at <WikiLink>Last Light Inn</WikiLink>
+        Sold by <WikiLink>Quartermaster Talli</WikiLink> in <WikiLink>Last Light Inn</WikiLink>.
       </div>
     ),
   },
@@ -2469,33 +2312,27 @@ export const data: Equipment[] = [
   {
     name: 'Harmonium Halberd',
     location: (
-      <ul>
-        <li>
-          This weapon can be bought from these traders:
-          <ul>
-            <li>
-              <WikiLink>Dammon</WikiLink> at the <WikiLink>Last Light Inn</WikiLink>
-            </li>
-          </ul>
-        </li>
-      </ul>
+      <div>
+        Sold by <WikiLink>Dammon</WikiLink> at the <WikiLink>Last Light Inn</WikiLink> in{' '}
+        <WikiLink>Chapter Two</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Thermodynamo Axe',
     location: (
-      <ul>
-        <li>
-          Sold by <WikiLink>Dammon</WikiLink> at the <WikiLink>Last Light Inn</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Sold by <WikiLink>Dammon</WikiLink> at the <WikiLink>Last Light Inn</WikiLink> in{' '}
+        <WikiLink>Chapter Two</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Thorn Blade',
     location: (
       <div>
-        Bought from <WikiLink>Dammon</WikiLink> in Act 2 at the <WikiLink>Last Light Inn</WikiLink>.
+        Sold by <WikiLink>Dammon</WikiLink> at the <WikiLink>Last Light Inn</WikiLink> in{' '}
+        <WikiLink>Chapter Two</WikiLink>.
       </div>
     ),
   },
@@ -2503,7 +2340,8 @@ export const data: Equipment[] = [
     name: 'Sword of Clutching Umbra',
     location: (
       <div>
-        Bought from <WikiLink>Dammon</WikiLink> in Act 2 at the <WikiLink>Last Light Inn</WikiLink>.
+        Sold by <WikiLink>Dammon</WikiLink> at the <WikiLink>Last Light Inn</WikiLink> in{' '}
+        <WikiLink>Chapter Two</WikiLink>.
       </div>
     ),
   },
@@ -2511,8 +2349,8 @@ export const data: Equipment[] = [
     name: 'Darkfire Shortbow',
     location: (
       <div>
-        Sold by <WikiLink>Dammon</WikiLink> in at the <WikiLink>Last Light Inn</WikiLink> stables{' '}
-        <span>X: -35 Y: 169</span>.
+        Sold by <WikiLink>Dammon</WikiLink> at the <WikiLink>Last Light Inn</WikiLink> in{' '}
+        <WikiLink>Chapter Two</WikiLink>.
       </div>
     ),
   },
@@ -2520,7 +2358,8 @@ export const data: Equipment[] = [
     name: 'Charge-Bound Warhammer',
     location: (
       <div>
-        Can be purchased from <WikiLink>Dammon</WikiLink> in <WikiLink>Last Light Inn</WikiLink>
+        Sold by <WikiLink>Dammon</WikiLink> at the <WikiLink>Last Light Inn</WikiLink> in{' '}
+        <WikiLink>Chapter Two</WikiLink>.
       </div>
     ),
   },
@@ -2528,42 +2367,36 @@ export const data: Equipment[] = [
     name: 'Swordmaster Gloves',
     location: (
       <div>
-        Sold by <WikiLink>Dammon</WikiLink> at the <WikiLink>Last Light Inn</WikiLink>.
+        Sold by <WikiLink>Dammon</WikiLink> at the <WikiLink>Last Light Inn</WikiLink> in{' '}
+        <WikiLink>Chapter Two</WikiLink>.
       </div>
     ),
   },
   {
     name: 'Flawed Helldusk Helmet',
     location: (
-      <ul>
-        <li>
-          This item is obtained by giving <WikiLink>Dammon</WikiLink> in the <WikiLink>Last Light Inn</WikiLink> a piece
-          of <WikiLink>Infernal Iron</WikiLink>. He will craft this item.
-        </li>
-      </ul>
+      <div>
+        This item is obtained by giving <WikiLink>Dammon</WikiLink> in the <WikiLink>Last Light Inn</WikiLink> a piece
+        of <WikiLink>Infernal Iron</WikiLink>. He will craft this item.
+      </div>
     ),
   },
   {
     name: 'Flawed Helldusk Armour',
     location: (
-      <ul>
-        <li>
-          Flawed Helldusk Armour is obtained by giving <WikiLink>Dammon</WikiLink> an{' '}
-          <WikiLink>Infernal Alloy</WikiLink> in the <WikiLink>Last Light Inn</WikiLink>. He will craft this armour and
-          give it to the player.
-        </li>
-      </ul>
+      <div>
+        This item is obtained by giving <WikiLink>Dammon</WikiLink> in the <WikiLink>Last Light Inn</WikiLink> a piece
+        of <WikiLink>Infernal Iron</WikiLink>. He will craft this item.
+      </div>
     ),
   },
   {
     name: 'Flawed Helldusk Gloves',
     location: (
-      <ul>
-        <li>
-          <WikiLink>Dammon</WikiLink> in the <WikiLink>Last Light Inn</WikiLink> will craft this item if he is given an{' '}
-          <WikiLink>Infernal Iron</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        This item is obtained by giving <WikiLink>Dammon</WikiLink> in the <WikiLink>Last Light Inn</WikiLink> a piece
+        of <WikiLink>Infernal Iron</WikiLink>. He will craft this item.
+      </div>
     ),
   },
   {
@@ -2578,40 +2411,29 @@ export const data: Equipment[] = [
   {
     name: 'Rippling Force Mail',
     location: (
-      <ul>
-        <li>
-          Can be found in a locked Rustic Chest on the second floor of <WikiLink>Dammon</WikiLink>'s blacksmith in the{' '}
-          <WikiLink>Last Light Inn</WikiLink> <span>X: -20 Y: 179</span>.
-        </li>
-      </ul>
+      <div>
+        Can be found in a locked Rustic Chest on the second floor of <WikiLink>Dammon</WikiLink>'s blacksmith in the{' '}
+        <WikiLink>Last Light Inn</WikiLink> <span>X: -20 Y: 179</span>.
+      </div>
     ),
   },
   {
     name: 'Covert Cowl',
     location: (
-      <ul>
-        <li>
-          Carried by a Meenlock creature in the <WikiLink>Cellar</WikiLink> of <WikiLink>Last Light Inn</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Carried by a Meenlock creature in the <WikiLink>Cellar</WikiLink> of <WikiLink>Last Light Inn</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Coruscation Ring',
     location: (
-      <ul>
-        <li>
-          Found in a trapped Heavy Chest in the cellar <span>X: 47 Y: -738</span> of <WikiLink>Last Light Inn</WikiLink>
-          .
-          <ul>
-            <li>
-              This chest is in a secret area. It is reached by going through a set of Double Oak Doors that are blocked
-              by a destructible spiderweb and a pile of crates. The room beyond has a Cracked Wall, which, when broken,
-              will grant access to the secret area containing the chest.
-            </li>
-          </ul>
-        </li>
-      </ul>
+      <div>
+        Found in a trapped Heavy Chest in the cellar <span>X: 47 Y: -738</span> of <WikiLink>Last Light Inn</WikiLink>.
+        This chest is in a secret area. It is reached by going through a set of Double Oak Doors that are blocked by a
+        destructible spiderweb and a pile of crates. The room beyond has a Cracked Wall, which, when broken, will grant
+        access to the secret area containing the chest.
+      </div>
     ),
   },
   {
@@ -2628,32 +2450,26 @@ export const data: Equipment[] = [
   {
     name: 'Sylvan Scimitar',
     location: (
-      <ul>
-        <li>
-          This weapon is held by <WikiLink>Jaheira</WikiLink>. It can be obtained by killing and looting her, or
-          recruiting her.
-        </li>
-      </ul>
+      <div>
+        This weapon is held by <WikiLink>Jaheira</WikiLink>. It can be obtained by killing and looting her, or
+        recruiting her.
+      </div>
     ),
   },
   {
     name: 'Shifting Corpus Ring',
     location: (
-      <ul>
-        <li>
-          Dropped by <WikiLink>Flaming Fist Marcus</WikiLink> at the <WikiLink>Last Light Inn</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Dropped by <WikiLink>Flaming Fist Marcus</WikiLink> at the <WikiLink>Last Light Inn</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Cruel Sting',
     location: (
-      <ul>
-        <li>
-          Looted from <WikiLink>Kar'niss</WikiLink> in <WikiLink>Shadow-Cursed Lands</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Looted from <WikiLink>Kar'niss</WikiLink> in <WikiLink>Shadow-Cursed Lands</WikiLink>.
+      </div>
     ),
   },
   {
@@ -2668,12 +2484,10 @@ export const data: Equipment[] = [
   {
     name: 'Twist of Fortune',
     location: (
-      <ul>
-        <li>
-          Twist of Fortune is obtained by defeating and looting <WikiLink>Gerringothe Thorm</WikiLink> in the{' '}
-          <WikiLink>Reithwin Tollhouse</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Twist of Fortune is obtained by defeating and looting <WikiLink>Gerringothe Thorm</WikiLink> in the{' '}
+        <WikiLink>Reithwin Tollhouse</WikiLink>.
+      </div>
     ),
   },
   {
@@ -2696,12 +2510,10 @@ export const data: Equipment[] = [
   {
     name: 'Fireheart',
     location: (
-      <ul>
-        <li>
-          Located inside a Heavy Chest inside the <WikiLink>Reithwin Tollhouse</WikiLink> <span>X: -127 Y: -78</span>.
-          The player must break a vine or jump from the outside through a window to enter in this hidden room.
-        </li>
-      </ul>
+      <div>
+        Located inside a Heavy Chest inside the <WikiLink>Reithwin Tollhouse</WikiLink> <span>X: -127 Y: -78</span>. The
+        player must break a vine or jump from the outside through a window to enter in this hidden room.
+      </div>
     ),
   },
   {
@@ -2741,53 +2553,39 @@ export const data: Equipment[] = [
     name: 'Gloves of Crushing',
     location: (
       <div>
-        Sold by <WikiLink>Roah Moonglow</WikiLink> in <WikiLink>Moonrise Towers</WikiLink> during{' '}
-        <WikiLink>Act Two</WikiLink>.
+        Sold by <WikiLink>Roah Moonglow</WikiLink> in <WikiLink>Moonrise Towers</WikiLink>.
       </div>
     ),
   },
   {
     name: 'Armour of Devotion',
     location: (
-      <ul>
-        <li>
-          Sold by <WikiLink>Roah Moonglow</WikiLink> in <WikiLink>Moonrise Towers</WikiLink>
-        </li>
-      </ul>
+      <div>
+        Sold by <WikiLink>Roah Moonglow</WikiLink> in <WikiLink>Moonrise Towers</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Drakethroat Glaive',
     location: (
-      <ul>
-        <li>
-          This weapon can be bought from these traders:
-          <ul>
-            <li>
-              <WikiLink>Roah Moonglow</WikiLink> on the ground floor of <WikiLink>Moonrise Towers</WikiLink>{' '}
-              <span>X: -175 Y: -176</span>
-            </li>
-          </ul>
-        </li>
-      </ul>
+      <div>
+        Sold by <WikiLink>Roah Moonglow</WikiLink> in <WikiLink>Moonrise Towers</WikiLink>.
+      </div>
     ),
   },
   {
     name: "Ne'er Misser",
     location: (
-      <ul>
-        <li>
-          Sold by <WikiLink>Roah Moonglow</WikiLink> in <WikiLink>Moonrise Towers</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Sold by <WikiLink>Roah Moonglow</WikiLink> in <WikiLink>Moonrise Towers</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Marksmanship Hat',
     location: (
       <div>
-        Sold by <WikiLink>Roah Moonglow</WikiLink> in <WikiLink>Moonrise Towers</WikiLink> during{' '}
-        <WikiLink>Act Two</WikiLink>.
+        Sold by <WikiLink>Roah Moonglow</WikiLink> in <WikiLink>Moonrise Towers</WikiLink>.
       </div>
     ),
   },
@@ -2795,8 +2593,7 @@ export const data: Equipment[] = [
     name: "Poisoner's Ring",
     location: (
       <div>
-        Sold by <WikiLink>Roah Moonglow</WikiLink> in <WikiLink>Moonrise Towers</WikiLink> in{' '}
-        <WikiLink>Act Two</WikiLink>.
+        Sold by <WikiLink>Roah Moonglow</WikiLink> in <WikiLink>Moonrise Towers</WikiLink>.
       </div>
     ),
   },
@@ -2804,32 +2601,28 @@ export const data: Equipment[] = [
     name: 'Ring of Spiteful Thunder',
     location: (
       <div>
-        Sold by <WikiLink>Roah Moonglow</WikiLink> in <WikiLink>Moonrise Towers</WikiLink>, Act II.
+        Sold by <WikiLink>Roah Moonglow</WikiLink> in <WikiLink>Moonrise Towers</WikiLink>.
       </div>
     ),
   },
   {
     name: 'Render of Mind and Body',
     location: (
-      <ul>
-        <li>
-          Sold by <WikiLink>Lann Tarv</WikiLink> in the <WikiLink>Main Floor</WikiLink> of{' '}
-          <WikiLink>Moonrise Towers</WikiLink> if you convince Disciple Z'rell to give you additional aid in finding
-          Ketheric's relic.
-        </li>
-      </ul>
+      <div>
+        Sold by <WikiLink>Lann Tarv</WikiLink> in the <WikiLink>Main Floor</WikiLink> of{' '}
+        <WikiLink>Moonrise Towers</WikiLink> if you convince Disciple Z'rell to give you additional aid in finding
+        Ketheric's relic.
+      </div>
     ),
   },
   {
     name: 'Gauntlets of Surging Accuracy',
     location: (
-      <ul>
-        <li>
-          Sold by <WikiLink>Lann Tarv</WikiLink> in the <WikiLink>Main Floor</WikiLink> of{' '}
-          <WikiLink>Moonrise Towers</WikiLink> if you convince Disciple Z'rell to give you additional aid in finding
-          Ketheric's relic.
-        </li>
-      </ul>
+      <div>
+        Sold by <WikiLink>Lann Tarv</WikiLink> in the <WikiLink>Main Floor</WikiLink> of{' '}
+        <WikiLink>Moonrise Towers</WikiLink> if you convince Disciple Z'rell to give you additional aid in finding
+        Ketheric's relic.
+      </div>
     ),
   },
   {
@@ -2845,46 +2638,35 @@ export const data: Equipment[] = [
   {
     name: "Bigboy's Chew Toy",
     location: (
-      <ul>
-        <li>
-          Sold by <WikiLink>Lann Tarv</WikiLink> in the <WikiLink>Main Floor</WikiLink> of{' '}
-          <WikiLink>Moonrise Towers</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Sold by <WikiLink>Lann Tarv</WikiLink> in the <WikiLink>Main Floor</WikiLink> of{' '}
+        <WikiLink>Moonrise Towers</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Halberd of Vigilance',
     location: (
-      <ul>
-        <li>
-          This weapon can be bought from these traders:
-          <ul>
-            <li>
-              <WikiLink>Lann Tarv</WikiLink> on the ground floor of <WikiLink>Moonrise Towers</WikiLink>{' '}
-              <span>X: -164 Y: -167</span>
-            </li>
-          </ul>
-        </li>
-      </ul>
+      <div>
+        <WikiLink>Lann Tarv</WikiLink> on the ground floor of <WikiLink>Moonrise Towers</WikiLink>{' '}
+        <span>X: -164 Y: -167</span>
+      </div>
     ),
   },
   {
     name: 'Gloves of The Duellist',
     location: (
-      <ul>
-        <li>
-          Sold by <WikiLink>Lann Tarv</WikiLink> in the <WikiLink>Main Floor</WikiLink> of{' '}
-          <WikiLink>Moonrise Towers</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Sold by <WikiLink>Lann Tarv</WikiLink> in the <WikiLink>Main Floor</WikiLink> of{' '}
+        <WikiLink>Moonrise Towers</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Sentinel Shield',
     location: (
       <div>
-        Sold by <WikiLink>Lann Tarv</WikiLink> in <WikiLink>Moonrise Towers</WikiLink>.
+        Sold by <WikiLink>Lann Tarv</WikiLink> in the <WikiLink>Moonrise Towers</WikiLink>.
       </div>
     ),
   },
@@ -2907,34 +2689,28 @@ export const data: Equipment[] = [
   {
     name: 'Slicing Shortsword',
     location: (
-      <ul>
-        <li>
-          Sold by <WikiLink>Lann Tarv</WikiLink> in the <WikiLink>Main Floor</WikiLink> of{' '}
-          <WikiLink>Moonrise Towers</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Sold by <WikiLink>Lann Tarv</WikiLink> in the <WikiLink>Main Floor</WikiLink> of{' '}
+        <WikiLink>Moonrise Towers</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Derivation Cloak',
     location: (
-      <ul>
-        <li>
-          Can be looted from a Heavy Chest <span>X: -132 Y: -175</span> in <WikiLink>Balthazar</WikiLink>'s chambers on
-          the <WikiLink>First Floor</WikiLink> of <WikiLink>Moonrise Towers</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Can be looted from a Heavy Chest <span>X: -132 Y: -175</span> in <WikiLink>Balthazar</WikiLink>'s chambers on
+        the <WikiLink>First Floor</WikiLink> of <WikiLink>Moonrise Towers</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Cloak of Elemental Absorption',
     location: (
-      <ul>
-        <li>
-          Can be looted from an Opulent Chest <span>X: -170 Y: -171</span> in <WikiLink>Ketheric Thorm</WikiLink>'s
-          chambers on the <WikiLink>First Floor</WikiLink> of <WikiLink>Moonrise Towers</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Can be looted from an Opulent Chest <span>X: -170 Y: -171</span> in <WikiLink>Ketheric Thorm</WikiLink>'s
+        chambers on the <WikiLink>First Floor</WikiLink> of <WikiLink>Moonrise Towers</WikiLink>.
+      </div>
     ),
   },
   {
@@ -2954,33 +2730,27 @@ export const data: Equipment[] = [
   {
     name: 'Ichorous Gloves',
     location: (
-      <ul>
-        <li>
-          Found inside a metal chest in the storeroom at the back of <WikiLink>The Waning Moon</WikiLink>{' '}
-          <span>X: -253 Y: -71</span>.
-        </li>
-      </ul>
+      <div>
+        Found inside a metal chest in the storeroom at the back of <WikiLink>The Waning Moon</WikiLink>{' '}
+        <span>X: -253 Y: -71</span>.
+      </div>
     ),
   },
   {
     name: 'Rat Bat',
     location: (
-      <ul>
-        <li>
-          The Rat Bat can be found leaning against a wall in <WikiLink>The Waning Moon</WikiLink>{' '}
-          <span>X: -224 Y: -78</span>.
-        </li>
-      </ul>
+      <div>
+        The Rat Bat can be found leaning against a wall in <WikiLink>The Waning Moon</WikiLink>{' '}
+        <span>X: -224 Y: -78</span>.
+      </div>
     ),
   },
   {
     name: 'Punch-Drunk Bastard',
     location: (
-      <ul>
-        <li>
-          Can be looted from a chest in the back storage room of <WikiLink>The Waning Moon</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Can be looted from a chest in the back storage room of <WikiLink>The Waning Moon</WikiLink>.
+      </div>
     ),
   },
   {
@@ -2994,58 +2764,48 @@ export const data: Equipment[] = [
   {
     name: 'Ritual Dagger of Shar',
     location: (
-      <ul>
-        <li>
-          Ritual Dagger of Shar is found on an altar <span>X: 249 Y: -847</span> in the{' '}
-          <WikiLink>Sharran Sanctuary</WikiLink> inside <WikiLink>Reithwin Town</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        On an altar <span>X: 249 Y: -847</span> in the <WikiLink>Sharran Sanctuary</WikiLink> inside{' '}
+        <WikiLink>Reithwin Town</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Helmet of Arcane Acuity',
     location: (
-      <ul>
-        <li>
-          Can be found in a locked and trapped Gilded Chest in a secret area of the Reithwin{' '}
-          <WikiLink>Mason's Guild Basement</WikiLink> <span>X: 107 Y: -758</span>. The basement is accessed through a
-          trapdoor in the Mason's Guild, and the secret area can be opened by lockpicking or using the
-          <WikiLink>Tower-Shaped Key</WikiLink> on the Keyholed Herald <span>X: 123 Y: -688</span>.
-        </li>
-      </ul>
+      <div>
+        Can be found in a locked and trapped Gilded Chest in a secret area of the Reithwin{' '}
+        <WikiLink>Mason's Guild Basement</WikiLink> <span>X: 107 Y: -758</span>. The basement is accessed through a
+        trapdoor in the Mason's Guild, and the secret area can be opened by lockpicking or using the
+        <WikiLink>Tower-Shaped Key</WikiLink> on the Keyholed Herald <span>X: 123 Y: -688</span>.
+      </div>
     ),
   },
   {
     name: "True Love's Caress",
     location: (
-      <ul>
-        <li>
-          This ring can be found on a skeleton leaning up against a large tree in the{' '}
-          <WikiLink>Shadow-Cursed Lands</WikiLink> <span>X: -147 Y: 43</span>.
-        </li>
-      </ul>
+      <div>
+        This ring can be found on a skeleton leaning up against a large tree in the{' '}
+        <WikiLink>Shadow-Cursed Lands</WikiLink> <span>X: -147 Y: 43</span>.
+      </div>
     ),
   },
   {
     name: 'Boots of Apparent Death',
     location: (
-      <ul>
-        <li>
-          Boots of Apparent Death are found inside a sarcophagus in the <WikiLink>Shadow-Cursed Lands</WikiLink>,{' '}
-          <span>X: -165 Y: 45</span>.
-        </li>
-      </ul>
+      <div>
+        Boots of Apparent Death are found inside a sarcophagus in the <WikiLink>Shadow-Cursed Lands</WikiLink>,{' '}
+        <span>X: -165 Y: 45</span>.
+      </div>
     ),
   },
   {
     name: 'Icebite Robe',
     location: (
-      <ul>
-        <li>
-          Icebite Robe is found inside a sarcophagus in the <WikiLink>Shadow-Cursed Lands</WikiLink>,{' '}
-          <span>X: -158 Y: 73</span>.
-        </li>
-      </ul>
+      <div>
+        Icebite Robe is found inside a sarcophagus in the <WikiLink>Shadow-Cursed Lands</WikiLink>,{' '}
+        <span>X: -158 Y: 73</span>.
+      </div>
     ),
   },
   {
@@ -3089,33 +2849,27 @@ export const data: Equipment[] = [
   {
     name: "Shar's Temptation",
     location: (
-      <ul>
-        <li>
-          This amulet is inside a crate with a note on top, inside the <WikiLink>House of Healing</WikiLink>{' '}
-          <span>X: -193 Y: 9</span>.
-        </li>
-      </ul>
+      <div>
+        This amulet is inside a crate with a note on top, inside the <WikiLink>House of Healing</WikiLink>{' '}
+        <span>X: -193 Y: 9</span>.
+      </div>
     ),
   },
   {
     name: "True Love's Embrace",
     location: (
-      <ul>
-        <li>
-          Can be found on a skeleton laying on a mattress on the ground on the <WikiLink>House of Healing</WikiLink>{' '}
-          <span>X: -212 Y: 0</span>.
-        </li>
-      </ul>
+      <div>
+        Can be found on a skeleton laying on a mattress on the ground on the <WikiLink>House of Healing</WikiLink>{' '}
+        <span>X: -212 Y: 0</span>.
+      </div>
     ),
   },
   {
     name: "Poisoner's Gloves",
     location: (
-      <ul>
-        <li>
-          Found inside a chest at the back end of the <WikiLink>House of Healing</WikiLink> <span>X: -199 Y: 78</span>.
-        </li>
-      </ul>
+      <div>
+        Found inside a chest at the back end of the <WikiLink>House of Healing</WikiLink> <span>X: -199 Y: 78</span>.
+      </div>
     ),
   },
   {
@@ -3180,12 +2934,10 @@ export const data: Equipment[] = [
   {
     name: 'Vivacious Cloak',
     location: (
-      <ul>
-        <li>
-          Can be looted from a chest <span>X: -257 Y: -886</span> in the <WikiLink>Grand Mausoleum</WikiLink> in the{' '}
-          <WikiLink>Shadow-Cursed Lands</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Can be looted from a chest <span>X: -257 Y: -886</span> in the <WikiLink>Grand Mausoleum</WikiLink> in the{' '}
+        <WikiLink>Shadow-Cursed Lands</WikiLink>.
+      </div>
     ),
   },
   {
@@ -3199,34 +2951,28 @@ export const data: Equipment[] = [
   {
     name: 'Dark Justiciar Gauntlets (Uncommon)',
     location: (
-      <ul>
-        <li>
-          Found laying on a pile of boxes in the <WikiLink>Gauntlet of Shar</WikiLink> <span>X: -660 Y: -760</span>,
-          near <WikiLink>Yurgir</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Found laying on a pile of boxes in the <WikiLink>Gauntlet of Shar</WikiLink> <span>X: -660 Y: -760</span>, near{' '}
+        <WikiLink>Yurgir</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Hellfire Hand Crossbow',
     location: (
-      <ul>
-        <li>
-          Can be looted from <WikiLink>Yurgir</WikiLink> in the <WikiLink>Gauntlet of Shar</WikiLink>{' '}
-          <span>X: -653 Y: -764</span>.
-        </li>
-      </ul>
+      <div>
+        Can be looted from <WikiLink>Yurgir</WikiLink> in the <WikiLink>Gauntlet of Shar</WikiLink>{' '}
+        <span>X: -653 Y: -764</span>.
+      </div>
     ),
   },
   {
     name: 'Boots of Brilliance',
     location: (
-      <ul>
-        <li>
-          Looted from a Heavy Chest in the room just north of <WikiLink>Yurgir</WikiLink> in the{' '}
-          <WikiLink>Gauntlet of Shar</WikiLink> <span>X: -632 Y: -723</span>.
-        </li>
-      </ul>
+      <div>
+        Looted from a Heavy Chest in the room just north of <WikiLink>Yurgir</WikiLink> in the{' '}
+        <WikiLink>Gauntlet of Shar</WikiLink> <span>X: -632 Y: -723</span>.
+      </div>
     ),
   },
   {
@@ -3254,34 +3000,28 @@ export const data: Equipment[] = [
   {
     name: 'Circle of Bones',
     location: (
-      <ul>
-        <li>
-          Can be looted from <WikiLink>Balthazar</WikiLink> in the <WikiLink>Gauntlet of Shar</WikiLink>{' '}
-          <span>X: -845 Y: -793</span>.
-        </li>
-      </ul>
+      <div>
+        Can be looted from <WikiLink>Balthazar</WikiLink> in the <WikiLink>Gauntlet of Shar</WikiLink>{' '}
+        <span>X: -845 Y: -793</span>.
+      </div>
     ),
   },
   {
     name: 'Callous Glow Ring',
     location: (
-      <ul>
-        <li>
-          Contained inside an Opulent Chest in the vault room near <WikiLink>Balthazar</WikiLink>, inside the{' '}
-          <WikiLink>Gauntlet of Shar</WikiLink>, <span>X: -821 Y: -752</span>
-        </li>
-      </ul>
+      <div>
+        Contained inside an Opulent Chest in the vault room near <WikiLink>Balthazar</WikiLink>, inside the{' '}
+        <WikiLink>Gauntlet of Shar</WikiLink>, <span>X: -821 Y: -752</span>
+      </div>
     ),
   },
   {
     name: "Killer's Sweetheart",
     location: (
-      <ul>
-        <li>
-          Found lying on the ground at the top of the stone structure in the <WikiLink>Self-Same Trial</WikiLink> inside
-          the <WikiLink>Gauntlet of Shar</WikiLink> <span>X: -833 Y: -729</span>.
-        </li>
-      </ul>
+      <div>
+        Found lying on the ground at the top of the stone structure in the <WikiLink>Self-Same Trial</WikiLink> inside
+        the <WikiLink>Gauntlet of Shar</WikiLink> <span>X: -833 Y: -729</span>.
+      </div>
     ),
   },
   {
@@ -3296,88 +3036,71 @@ export const data: Equipment[] = [
   {
     name: 'Dark Justiciar Helmet',
     location: (
-      <ul>
-        <li>
-          Found inside a Gilded Chest in the <WikiLink>Gauntlet of Shar</WikiLink> <span>X: -822 Y: -753</span>.
-        </li>
-      </ul>
+      <div>
+        Found inside a Gilded Chest in the <WikiLink>Gauntlet of Shar</WikiLink> <span>X: -822 Y: -753</span>.
+      </div>
     ),
   },
   {
     name: 'Dark Justiciar Half-Plate (Rare)',
     location: (
-      <ul>
-        <li>
-          Found laying on the ground next to the altar where the <WikiLink>Spear of Night</WikiLink> rests, in the{' '}
-          <WikiLink>Gauntlet of Shar</WikiLink> <span>X: -818 Y: -755</span>.
-        </li>
-      </ul>
+      <div>
+        Found laying on the ground next to the altar where the <WikiLink>Spear of Night</WikiLink> rests, in the{' '}
+        <WikiLink>Gauntlet of Shar</WikiLink> <span>X: -818 Y: -755</span>.
+      </div>
     ),
   },
   {
     name: 'Dark Justiciar Half-Plate (Very Rare)',
     location: (
-      <ul>
-        <li>
-          Rewarded for killing the <WikiLink>Nightsong</WikiLink> in <WikiLink>Shadowfell</WikiLink> during{' '}
-          <WikiLink>Act Two</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Rewarded for killing the <WikiLink>Nightsong</WikiLink> in <WikiLink>Shadowfell</WikiLink> during{' '}
+        <WikiLink>Act Two</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Moonlight Glaive',
     location: (
-      <ul>
-        <li>
-          This item is a quest reward for freeing the Nightsong from the Shadowfell during the quest{' '}
-          <WikiLink>Find the Nightsong</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        This item is a quest reward for freeing the Nightsong from the Shadowfell during the quest{' '}
+        <WikiLink>Find the Nightsong</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Dark Justiciar Boots',
     location: (
-      <ul>
-        <li>
-          Rewarded for killing the <WikiLink>Nightsong</WikiLink> in <WikiLink>Nightsong's Prison</WikiLink> during{' '}
-          <WikiLink>Act Two</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Rewarded for killing the <WikiLink>Nightsong</WikiLink> in <WikiLink>Nightsong's Prison</WikiLink> during{' '}
+        <WikiLink>Act Two</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Dark Justiciar Gauntlets (Rare)',
     location: (
-      <ul>
-        <li>
-          Reward for killing the <WikiLink>Nightsong</WikiLink> in <WikiLink>Nightsong's Prison</WikiLink> during{' '}
-          <WikiLink>Act Two</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Reward for killing the <WikiLink>Nightsong</WikiLink> in <WikiLink>Nightsong's Prison</WikiLink> during{' '}
+        <WikiLink>Act Two</WikiLink>.
+      </div>
     ),
   },
   {
     name: "Shar's Spear of Evening",
     location: (
-      <>
-        <div />
-        <div>
-          Reward for the quest <WikiLink>The Chosen of Shar</WikiLink>, for convincing <WikiLink>Shadowheart</WikiLink>{' '}
-          to kill the <WikiLink>Nightsong</WikiLink> in the <WikiLink>Shadowfell</WikiLink>.
-        </div>
-      </>
+      <div>
+        Reward for the quest <WikiLink>The Chosen of Shar</WikiLink>, for convincing <WikiLink>Shadowheart</WikiLink> to
+        kill the <WikiLink>Nightsong</WikiLink> in the <WikiLink>Shadowfell</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Moon Devotion Robe',
     location: (
-      <ul>
-        <li>
-          Looted from <WikiLink>Isobel</WikiLink> at the <WikiLink>Last Light Inn</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Looted from <WikiLink>Isobel</WikiLink> at the <WikiLink>Last Light Inn</WikiLink>.
+      </div>
     ),
   },
   {
@@ -3420,12 +3143,10 @@ export const data: Equipment[] = [
   {
     name: 'Ring of Exalted Marrow',
     location: (
-      <ul>
-        <li>
-          Can be looted from a Heavy Chest on the <WikiLink>Moonrise Towers Rooftop</WikiLink>{' '}
-          <span>X: -153 Y: -170</span>.
-        </li>
-      </ul>
+      <div>
+        Can be looted from a Heavy Chest on the <WikiLink>Moonrise Towers Rooftop</WikiLink>{' '}
+        <span>X: -153 Y: -170</span>.
+      </div>
     ),
   },
   {
@@ -3439,25 +3160,21 @@ export const data: Equipment[] = [
   {
     name: 'Circlet of Mental Anguish',
     location: (
-      <ul>
-        <li>
-          Can be looted from a skeleton in the <WikiLink>Necrotic Labratory</WikiLink> of the{' '}
-          <WikiLink>Mind Flayer Colony</WikiLink> <span>X: 748 Y: -141</span>.
-        </li>
-      </ul>
+      <div>
+        Can be looted from a skeleton in the <WikiLink>Necrotic Labratory</WikiLink> of the{' '}
+        <WikiLink>Mind Flayer Colony</WikiLink> <span>X: 748 Y: -141</span>.
+      </div>
     ),
   },
   {
     name: 'Braindrain Gloves',
     location: (
-      <ul>
-        <li>
-          Can be looted from a skeleton in the <WikiLink>Necrotic Labratory</WikiLink> of the{' '}
-          <WikiLink>Mind Flayer Colony</WikiLink> next to the
-          <WikiLink>Blade of Oppressed Souls</WikiLink>
-          <span>X: 748 Y: -141</span>.
-        </li>
-      </ul>
+      <div>
+        Can be looted from a skeleton in the <WikiLink>Necrotic Labratory</WikiLink> of the{' '}
+        <WikiLink>Mind Flayer Colony</WikiLink> next to the
+        <WikiLink>Blade of Oppressed Souls</WikiLink>
+        <span>X: 748 Y: -141</span>.
+      </div>
     ),
   },
   {
@@ -3495,15 +3212,15 @@ export const data: Equipment[] = [
   {
     name: 'Nymph Cloak',
     location: (
-      <>
-        <div>
-          Looted from the High Security Vault n&#xb0;1 in <WikiLink>The Counting House</WikiLink> in the{' '}
+      <ul>
+        <li>
+          Looted from the High Security Vault no 1 in <WikiLink>The Counting House</WikiLink> in the{' '}
           <WikiLink>Lower City</WikiLink> of <WikiLink>Baldur's Gate</WikiLink>.
-        </div>
-        <div>
+        </li>
+        <li>
           Sold by <WikiLink>Ferg Drogher</WikiLink> in <WikiLink>Rivington</WikiLink>. Special wares.
-        </div>
-      </>
+        </li>
+      </ul>
     ),
   },
   {
@@ -3518,17 +3235,9 @@ export const data: Equipment[] = [
   {
     name: 'Sethan',
     location: (
-      <ul>
-        <li>
-          This weapon can be bought from the following traders:
-          <ul>
-            <li>
-              <WikiLink>Ferg Drogher</WikiLink> (special wares) in <WikiLink>Rivington</WikiLink>{' '}
-              <span>X: 44 Y: 100</span>
-            </li>
-          </ul>
-        </li>
-      </ul>
+      <div>
+        <WikiLink>Ferg Drogher</WikiLink> (special wares) in <WikiLink>Rivington</WikiLink> <span>X: 44 Y: 100</span>
+      </div>
     ),
   },
   {
@@ -3558,11 +3267,9 @@ export const data: Equipment[] = [
   {
     name: 'Djinni Ring',
     location: (
-      <ul>
-        <li>
-          Can be looted, pickpocketed, or obtained through trading from <WikiLink>Akabi</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Can be looted, pickpocketed, or obtained through trading from <WikiLink>Akabi</WikiLink>.
+      </div>
     ),
   },
   {
@@ -3576,19 +3283,14 @@ export const data: Equipment[] = [
   {
     name: 'Nyrulna',
     location: (
-      <ul>
-        <li>
-          Win the jackpot from <WikiLink>Akabi</WikiLink>, found in the <WikiLink>Circus of the Last Days</WikiLink> in{' '}
-          <WikiLink>Rivington</WikiLink>, by first pickpocketing (or trading through the Trade option) his{' '}
-          <WikiLink>Djinni Ring</WikiLink>. Nyrulna is found in a DC 20 locked Painted Chest in the{' '}
-          <WikiLink>Jungle</WikiLink>
-          <span>X: -1511 Y: -1522</span> he teleports you to, right next to the exit portal.
-        </li>
-        <li>
-          It is also possible to win the jackpot by passing a DC15 <WikiLink>Performance</WikiLink> check after noticing
-          that <WikiLink>Akabi</WikiLink> is cheating.
-        </li>
-      </ul>
+      <div>
+        Win the jackpot from <WikiLink>Akabi</WikiLink>, found in the <WikiLink>Circus of the Last Days</WikiLink> in{' '}
+        <WikiLink>Rivington</WikiLink>, by first pickpocketing (or trading through the Trade option) his{' '}
+        <WikiLink>Djinni Ring</WikiLink>. Nyrdivna is found in a DC 20 locked Painted Chest in the{' '}
+        <WikiLink>Jungle</WikiLink> <span>X: -1511 Y: -1522</span> he teleports you to, right next to the exit portal.
+        It is also possible to win the jackpot by passing a DC15 <WikiLink>Performance</WikiLink> check after noticing
+        that <WikiLink>Akabi</WikiLink> is cheating.
+      </div>
     ),
   },
   {
@@ -3603,22 +3305,18 @@ export const data: Equipment[] = [
   {
     name: 'The Pointy Hat',
     location: (
-      <ul>
-        <li>
-          In a chest behind <WikiLink>Lucretious</WikiLink> in the <WikiLink>Circus of the Last Days</WikiLink>
-        </li>
-      </ul>
+      <div>
+        In a chest behind <WikiLink>Lucretious</WikiLink> in the <WikiLink>Circus of the Last Days</WikiLink>
+      </div>
     ),
   },
   {
     name: 'Dark Displacement Gloves',
     location: (
-      <ul>
-        <li>
-          Can be bought, pickpocketed, or looted from <WikiLink>Popper</WikiLink> in the{' '}
-          <WikiLink>Circus of the Last Days</WikiLink> in <WikiLink>Rivington</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Can be bought, pickpocketed, or looted from <WikiLink>Popper</WikiLink> in the{' '}
+        <WikiLink>Circus of the Last Days</WikiLink> in <WikiLink>Rivington</WikiLink>.
+      </div>
     ),
   },
   {
@@ -3652,22 +3350,18 @@ export const data: Equipment[] = [
   {
     name: "Devotee's Mace",
     location: (
-      <ul>
-        <li>
-          Rewarded from the <WikiLink>Arm Thy Servant</WikiLink> variant of <WikiLink>Divine Intervention</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Rewarded from the <WikiLink>Arm Thy Servant</WikiLink> variant of <WikiLink>Divine Intervention</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Ring of Truthfulness',
     location: (
-      <ul>
-        <li>
-          Dropped by <WikiLink>Mind Flayer</WikiLink> hiding in the <WikiLink>Windmill Basement</WikiLink> of the
-          Abandoned Windmill <span>X: 44 Y: -38</span> in <WikiLink>Rivington</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Dropped by <WikiLink>Mind Flayer</WikiLink> hiding in the <WikiLink>Windmill Basement</WikiLink> of the
+        Abandoned Windmill <span>X: 44 Y: -38</span> in <WikiLink>Rivington</WikiLink>.
+      </div>
     ),
   },
   {
@@ -3735,12 +3429,10 @@ export const data: Equipment[] = [
   {
     name: 'Gauntlets of the Warmaster',
     location: (
-      <ul>
-        <li>
-          Sold by the trader <WikiLink>Entharl Danthelon</WikiLink> in <WikiLink>Danthelon's Dancing Axe</WikiLink> in{' '}
-          <WikiLink>Wyrm's Crossing</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Sold by the trader <WikiLink>Entharl Danthelon</WikiLink> in <WikiLink>Danthelon's Dancing Axe</WikiLink> in{' '}
+        <WikiLink>Wyrm's Crossing</WikiLink>.
+      </div>
     ),
   },
   {
@@ -3755,78 +3447,64 @@ export const data: Equipment[] = [
   {
     name: 'Blightbringer',
     location: (
-      <ul>
-        <li>
-          Sold by <WikiLink>Entharl Danthelon</WikiLink> at <WikiLink>Danthelon's Dancing Axe</WikiLink> in{' '}
-          <WikiLink>Wyrm's Crossing</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Sold by <WikiLink>Entharl Danthelon</WikiLink> at <WikiLink>Danthelon's Dancing Axe</WikiLink> in{' '}
+        <WikiLink>Wyrm's Crossing</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Snow-Dusted Monastery Gloves',
     location: (
-      <ul>
-        <li>
-          Sold by the trader <WikiLink>Entharl Danthelon</WikiLink> in <WikiLink>Danthelon's Dancing Axe</WikiLink> in{' '}
-          <WikiLink>Wyrm's Crossing</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Sold by the trader <WikiLink>Entharl Danthelon</WikiLink> in <WikiLink>Danthelon's Dancing Axe</WikiLink> in{' '}
+        <WikiLink>Wyrm's Crossing</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Cloak of Displacement',
     location: (
-      <ul>
-        <li>
-          Sold by the trader <WikiLink>Entharl Danthelon</WikiLink> in <WikiLink>Danthelon's Dancing Axe</WikiLink> in{' '}
-          <WikiLink>Wyrm's Crossing</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Sold by the trader <WikiLink>Entharl Danthelon</WikiLink> in <WikiLink>Danthelon's Dancing Axe</WikiLink> in{' '}
+        <WikiLink>Wyrm's Crossing</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Garb of the Land and Sky',
     location: (
-      <ul>
-        <li>
-          Sold by the trader <WikiLink>Entharl Danthelon</WikiLink> in <WikiLink>Danthelon's Dancing Axe</WikiLink> in{' '}
-          <WikiLink>Wyrm's Crossing</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Sold by the trader <WikiLink>Entharl Danthelon</WikiLink> in <WikiLink>Danthelon's Dancing Axe</WikiLink> in{' '}
+        <WikiLink>Wyrm's Crossing</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Harmonic Dueller',
     location: (
-      <ul>
-        <li>
-          Sold by <WikiLink>Entharl Danthelon</WikiLink> at <WikiLink>Danthelon's Dancing Axe</WikiLink> in{' '}
-          <WikiLink>Wyrm's Crossing</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Sold by <WikiLink>Entharl Danthelon</WikiLink> at <WikiLink>Danthelon's Dancing Axe</WikiLink> in{' '}
+        <WikiLink>Wyrm's Crossing</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Corpsegrinder',
     location: (
-      <ul>
-        <li>
-          Looted from <WikiLink>Cairos</WikiLink> at the docks west of <WikiLink>Rivington</WikiLink>{' '}
-          <span>X: -210 Y: 99</span>.
-        </li>
-      </ul>
+      <div>
+        Looted from <WikiLink>Cairos</WikiLink> at the docks west of <WikiLink>Rivington</WikiLink>{' '}
+        <span>X: -210 Y: 99</span>.
+      </div>
     ),
   },
   {
     name: 'Gleamdance Dagger',
     location: (
-      <ul>
-        <li>
-          Looted from <WikiLink>Farlin</WikiLink> at the docks <span>X: -210 Y: 99</span> west of{' '}
-          <WikiLink>Rivington</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Looted from <WikiLink>Farlin</WikiLink> at the docks <span>X: -210 Y: 99</span> west of{' '}
+        <WikiLink>Rivington</WikiLink>.
+      </div>
     ),
   },
   {
@@ -3859,23 +3537,19 @@ export const data: Equipment[] = [
   {
     name: "Balduran's Giantslayer",
     location: (
-      <ul>
-        <li>
-          Looted from <WikiLink>Ansur</WikiLink> in the <WikiLink>The Dragon's Sanctum</WikiLink>,{' '}
-          <WikiLink>Wyrmway</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Looted from <WikiLink>Ansur</WikiLink> in the <WikiLink>The Dragon's Sanctum</WikiLink>,{' '}
+        <WikiLink>Wyrmway</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Helm of Balduran',
     location: (
-      <ul>
-        <li>
-          Found on an altar <span>X: 636 Y: -964</span> next to <WikiLink>Ansur</WikiLink> in the{' '}
-          <WikiLink>The Dragon's Sanctum</WikiLink> during <WikiLink>Act Three</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Found on an altar <span>X: 636 Y: -964</span> next to <WikiLink>Ansur</WikiLink> in the{' '}
+        <WikiLink>The Dragon's Sanctum</WikiLink> during <WikiLink>Act Three</WikiLink>.
+      </div>
     ),
   },
   {
@@ -3890,18 +3564,16 @@ export const data: Equipment[] = [
   {
     name: 'Mantle of the Holy Warrior',
     location: (
-      <ul>
-        <li>
-          Sold by <WikiLink>Vicar Humbletoes</WikiLink> in <WikiLink>Stormshore Tabernacle</WikiLink>
-        </li>
-      </ul>
+      <div>
+        Sold by <WikiLink>Vicar Humbletoes</WikiLink> in <WikiLink>Stormshore Tabernacle</WikiLink>
+      </div>
     ),
   },
   {
     name: 'The Sacred Star',
     location: (
       <div>
-        Sold by <WikiLink>Vicar Humbletoes</WikiLink> in the <WikiLink>Stormshore Tabernacle</WikiLink>.
+        Sold by <WikiLink>Vicar Humbletoes</WikiLink> in <WikiLink>Stormshore Tabernacle</WikiLink>
       </div>
     ),
   },
@@ -3920,10 +3592,7 @@ export const data: Equipment[] = [
       <div>
         Looted from the Offerings to Helm Chest in the basement of <WikiLink>Stormshore Tabernacle</WikiLink> in{' '}
         <WikiLink>Lower City</WikiLink>. The basement can be reached by entering the secret hatch in the corner of the
-        tabernacle.{' '}
-        <sup>
-          [<WikiLink>See Notes</WikiLink>]
-        </sup>
+        tabernacle.
       </div>
     ),
   },
@@ -3933,21 +3602,16 @@ export const data: Equipment[] = [
       <div>
         Looted from the Offerings to Tyr Chest in the basement of <WikiLink>Stormshore Tabernacle</WikiLink> in{' '}
         <WikiLink>Lower City</WikiLink>. The basement can be reached by entering the secret hatch in the corner of the
-        tabernacle.{' '}
-        <sup>
-          [<WikiLink>See Notes</WikiLink>]
-        </sup>
+        tabernacle.
       </div>
     ),
   },
   {
     name: 'Keepsake Ring',
     location: (
-      <ul>
-        <li>
-          Can be found on the floor of the <WikiLink>Elfsong Tavern Basement</WikiLink> <span>X: -859 Y: 531</span>.
-        </li>
-      </ul>
+      <div>
+        Can be found on the floor of the <WikiLink>Elfsong Tavern Basement</WikiLink> <span>X: -859 Y: 531</span>.
+      </div>
     ),
   },
   {
@@ -3998,12 +3662,10 @@ export const data: Equipment[] = [
   {
     name: 'Shade-Slayer Cloak',
     location: (
-      <ul>
-        <li>
-          Sold by <WikiLink>Sticky Dondo</WikiLink> <span>X: -17 Y: 755</span> in the <WikiLink>Guildhall</WikiLink>,
-          found in the <WikiLink>Lower City Sewers</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Sold by <WikiLink>Sticky Dondo</WikiLink> <span>X: -17 Y: 755</span> in the <WikiLink>Guildhall</WikiLink>,
+        found in the <WikiLink>Lower City Sewers</WikiLink>.
+      </div>
     ),
   },
   {
@@ -4015,24 +3677,14 @@ export const data: Equipment[] = [
           in <WikiLink>Act Three</WikiLink>.
         </li>
         <li>
-          As of Hotfix #7, this sword can alternatively be obtained in <WikiLink>Act One</WikiLink> by disarming Voss
-          via <WikiLink>Command (Drop)</WikiLink>, <WikiLink>Disarming Attack (Ranged)</WikiLink>, or{' '}
+          This sword can alternatively be obtained in <WikiLink>Act One</WikiLink> by disarming Voss via{' '}
+          <WikiLink>Command (Drop)</WikiLink>, <WikiLink>Disarming Attack (Ranged)</WikiLink>, or{' '}
           <WikiLink>Disarming Attack (Melee)</WikiLink> during the githyanki patrol encounter before entering the{' '}
-          <WikiLink>Mountain Pass</WikiLink> <span>X: -139 Y: 561</span>.
-          <ul>
-            <li>
-              Voss must be disarmed before beginning combat, as he immediately flies away when any hostile action is
-              taken.
-            </li>
-            <li>
-              Due to his high stats and <WikiLink>Supreme Githyanki Parry</WikiLink>, the chance of failing the disarm
-              attempt against him is very high, so this method may require multiple reloads.
-            </li>
-            <li>
-              He might sometimes only drop a <WikiLink>Githyanki Crossbow</WikiLink> on disarm. The trigger to that is
-              currently not known.
-            </li>
-          </ul>
+          <WikiLink>Mountain Pass</WikiLink> <span>X: -139 Y: 561</span>. Voss must be disarmed before beginning combat,
+          as he immediately flies away when any hostile action is taken. Due to his high stats and{' '}
+          <WikiLink>Supreme Githyanki Parry</WikiLink>, the chance of failing the disarm attempt against him is very
+          high, so this method may require multiple reloads. He might sometimes only drop a{' '}
+          <WikiLink>Githyanki Crossbow</WikiLink> on disarm. The trigger to that is currently not known.
         </li>
       </ul>
     ),
@@ -4060,12 +3712,10 @@ export const data: Equipment[] = [
   {
     name: 'Cindermoth Cloak',
     location: (
-      <ul>
-        <li>
-          Can be looted from <WikiLink>Aelis Siryasius</WikiLink> in the <WikiLink>Lower City Sewers</WikiLink>{' '}
-          <span>X: -123 Y: 834</span>.
-        </li>
-      </ul>
+      <div>
+        Can be looted from <WikiLink>Aelis Siryasius</WikiLink> in the <WikiLink>Lower City Sewers</WikiLink>{' '}
+        <span>X: -123 Y: 834</span>.
+      </div>
     ),
   },
   {
@@ -4098,23 +3748,19 @@ export const data: Equipment[] = [
   {
     name: 'Veil of the Morning',
     location: (
-      <ul>
-        <li>
-          Can be bought or looted from <WikiLink>Mystic Carrion</WikiLink> in <WikiLink>Philgrave's Mansion</WikiLink>{' '}
-          inside the <WikiLink>Lower City</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Can be bought or looted from <WikiLink>Mystic Carrion</WikiLink> in <WikiLink>Philgrave's Mansion</WikiLink>{' '}
+        inside the <WikiLink>Lower City</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Armour of the Sporekeeper',
     location: (
-      <ul>
-        <li>
-          Can be bought or looted from <WikiLink>Mystic Carrion</WikiLink> in <WikiLink>Philgrave's Mansion</WikiLink>{' '}
-          inside the <WikiLink>Lower City</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Can be bought or looted from <WikiLink>Mystic Carrion</WikiLink> in <WikiLink>Philgrave's Mansion</WikiLink>{' '}
+        inside the <WikiLink>Lower City</WikiLink>.
+      </div>
     ),
   },
   {
@@ -4129,23 +3775,19 @@ export const data: Equipment[] = [
   {
     name: 'Staff of Cherished Necromancy',
     location: (
-      <ul>
-        <li>
-          Can be looted from <WikiLink>Mystic Carrion</WikiLink> in <WikiLink>Philgrave's Mansion</WikiLink> inside the{' '}
-          <WikiLink>Lower City</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Can be looted from <WikiLink>Mystic Carrion</WikiLink> in <WikiLink>Philgrave's Mansion</WikiLink> inside the{' '}
+        <WikiLink>Lower City</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'The Dead Shot',
     location: (
-      <ul>
-        <li>
-          Sold by <WikiLink>Fytz the Firecracker</WikiLink> at the <WikiLink>Stormshore Armoury</WikiLink> in{' '}
-          <WikiLink>Lower City</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Sold by <WikiLink>Fytz the Firecracker</WikiLink> at the <WikiLink>Stormshore Armoury</WikiLink> in{' '}
+        <WikiLink>Lower City</WikiLink>.
+      </div>
     ),
   },
   {
@@ -4282,20 +3924,13 @@ export const data: Equipment[] = [
   {
     name: 'Foebreaker',
     location: (
-      <ul>
-        <li>
-          Can be found in a hidden chest in the Karsus section of <WikiLink>Sorcerous Vault</WikiLink>,{' '}
-          <WikiLink>Sorcerous Sundries</WikiLink>.
-          <ul>
-            <li>
-              Once in the vault, upon finding the named doors, go through Silverhand -&gt; Abjuration -&gt; Silver to
-              find a lever to unlock the Karsus vault door. Then go through Demon to return to the starting room and
-              proceed through the opened Karsus door. The chest is invisible and will require{' '}
-              <WikiLink>See Invisibility</WikiLink> or <WikiLink>Faerie Fire</WikiLink> to reveal it.
-            </li>
-          </ul>
-        </li>
-      </ul>
+      <div>
+        Can be found in a hidden chest in the Karsus section of <WikiLink>Sorcerous Vadivt</WikiLink>,{' '}
+        <WikiLink>Sorcerous Sundries</WikiLink>. Once in the vault, upon finding the named doors, go through Silverhand
+        -&gt; Abjuration -&gt; Silver to find a lever to unlock the Karsus vault door. Then go through Demon to return
+        to the starting room and proceed through the opened Karsus door. The chest is invisible and will require{' '}
+        <WikiLink>See Invisibility</WikiLink> or <WikiLink>Faerie Fire</WikiLink> to reveal it.
+      </div>
     ),
   },
   {
@@ -4311,19 +3946,12 @@ export const data: Equipment[] = [
   {
     name: 'Hellfire Greataxe',
     location: (
-      <ul>
-        <li>
-          Can be found in a chest in the Illusion section of <WikiLink>Sorcerous Vault</WikiLink>,{' '}
-          <WikiLink>Sorcerous Sundries</WikiLink>.
-          <ul>
-            <li>
-              Once in the vault, upon finding the named doors, go through the 'Silverhand' door and in the next area
-              destroy the door labeled 'Illusion' (trying to enter the door normally will not work). Through the door is
-              the room with the chest <span>X: 366 Y: 941</span>.
-            </li>
-          </ul>
-        </li>
-      </ul>
+      <div>
+        Can be found in a chest in the Illusion section of <WikiLink>Sorcerous Vault</WikiLink>,{' '}
+        <WikiLink>Sorcerous Sundries</WikiLink>. Once in the vault, upon finding the named doors, go through the
+        'Silverhand' door and in the next area destroy the door labeled 'Illusion' (trying to enter the door normally
+        will not work). Through the door is the room with the chest <span>X: 366 Y: 941</span>.
+      </div>
     ),
   },
   {
@@ -4393,14 +4021,10 @@ export const data: Equipment[] = [
   {
     name: 'Ring of Feywild Sparks',
     location: (
-      <>
-        <ul>
-          <li>
-            Looted from <WikiLink>Auntie Ethel</WikiLink> in the basement of <WikiLink>The Blushing Mermaid</WikiLink>,{' '}
-            <WikiLink>Lower City</WikiLink>.
-          </li>
-        </ul>
-      </>
+      <div>
+        Looted from <WikiLink>Auntie Ethel</WikiLink> in the basement of <WikiLink>The Blushing Mermaid</WikiLink>,{' '}
+        <WikiLink>Lower City</WikiLink>.
+      </div>
     ),
   },
   {
@@ -4422,11 +4046,9 @@ export const data: Equipment[] = [
   {
     name: 'Fey Semblance Amulet',
     location: (
-      <ul>
-        <li>
-          Rewarded for completing <WikiLink>Avenge the Hag Survivors</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Rewarded for completing <WikiLink>Avenge the Hag Survivors</WikiLink>.
+      </div>
     ),
   },
   {
@@ -4439,24 +4061,10 @@ export const data: Equipment[] = [
     ),
   },
   {
-    name: 'Nymph Cloak',
-    location: (
-      <>
-        <div>
-          Looted from the High Security Vault n&#xb0;1 in <WikiLink>The Counting House</WikiLink> in the{' '}
-          <WikiLink>Lower City</WikiLink> of <WikiLink>Baldur's Gate</WikiLink>.
-        </div>
-        <div>
-          Sold by <WikiLink>Ferg Drogher</WikiLink> in <WikiLink>Rivington</WikiLink>. Special wares.
-        </div>
-      </>
-    ),
-  },
-  {
     name: 'Spell Savant Amulet',
     location: (
       <div>
-        Looted from High Security Vault n&#xb0;1 in <WikiLink>The Counting House</WikiLink>.
+        Looted from High Security Vault no 1 in <WikiLink>The Counting House</WikiLink>.
       </div>
     ),
   },
@@ -4464,7 +4072,7 @@ export const data: Equipment[] = [
     name: "Jannath's Hat",
     location: (
       <div>
-        Looted from High Security Vault n&#xb0;2 in <WikiLink>The Counting House</WikiLink>
+        Looted from High Security Vault no 2 in <WikiLink>The Counting House</WikiLink>
       </div>
     ),
   },
@@ -4472,7 +4080,7 @@ export const data: Equipment[] = [
     name: 'The Long Arm of the Gur',
     location: (
       <div>
-        Looted from High Security Vault n&#xb0;3 in <WikiLink>The Counting House</WikiLink>
+        Looted from High Security Vault no 3 in <WikiLink>The Counting House</WikiLink>
       </div>
     ),
   },
@@ -4480,7 +4088,7 @@ export const data: Equipment[] = [
     name: 'Trident of the Waves',
     location: (
       <div>
-        Looted from High Security Vault n&#xb0;4 in <WikiLink>The Counting House</WikiLink>
+        Looted from High Security Vault no 4 in <WikiLink>The Counting House</WikiLink>
       </div>
     ),
   },
@@ -4488,7 +4096,7 @@ export const data: Equipment[] = [
     name: "Ravengard's Scourger",
     location: (
       <div>
-        Looted from High Security Vault n&#xb0;5 in <WikiLink>The Counting House</WikiLink>
+        Looted from High Security Vault no 5 in <WikiLink>The Counting House</WikiLink>
       </div>
     ),
   },
@@ -4496,7 +4104,7 @@ export const data: Equipment[] = [
     name: 'Knock Knuckle Gloves',
     location: (
       <div>
-        Looted from High Security Vault n&#xb0;7 in <WikiLink>The Counting House</WikiLink>.
+        Looted from High Security Vault no 7 in <WikiLink>The Counting House</WikiLink>.
       </div>
     ),
   },
@@ -4504,7 +4112,7 @@ export const data: Equipment[] = [
     name: 'Elegant Studded Leather',
     location: (
       <div>
-        Looted from High Security Vault n&#xb0;9 (inside the big vault at the back of the room) in{' '}
+        Looted from High Security Vault no 9 (inside the big vault at the back of the room) in{' '}
         <WikiLink>The Counting House</WikiLink> of the <WikiLink>Lower City</WikiLink>. A key for this vault can be
         obtained by completing <WikiLink>Return Rakath's Gold</WikiLink>.
       </div>
@@ -4530,25 +4138,23 @@ export const data: Equipment[] = [
   {
     name: 'Hellfire Engine Crossbow',
     location: (
-      <ul>
-        <li>
-          Crafted by combining three components found on the main floor of the <WikiLink>Steel Watch Foundry</WikiLink>{' '}
-          at the table <span>X: -325 Y: -134</span> in the Security Office.
-          <ul>
-            <li>
-              Watcher Crossbow Blueprint found on a table <span>X: -330 Y: -157</span> in the Security Office.
-            </li>
-            <li>
-              Targeting Module found on a table <span>X: -307 Y: -157</span> on the main floor next to the plaque
-              labeled 'Watcher Targeting Module'.
-            </li>
-            <li>
-              Steel Watcher Arm found on a table <span>X: -280 Y: -165</span> on the main floor next to the plaque
-              labeled 'Steel Watcher Arm Unit'.
-            </li>
-          </ul>
-        </li>
-      </ul>
+      <div>
+        Crafted by combining three components found on the main floor of the <WikiLink>Steel Watch Foundry</WikiLink> at
+        the table <span>X: -325 Y: -134</span> in the Security Office.
+        <ul>
+          <li>
+            Watcher Crossbow Blueprint found on a table <span>X: -330 Y: -157</span> in the Security Office.
+          </li>
+          <li>
+            Targeting Module found on a table <span>X: -307 Y: -157</span> on the main floor next to the plaque labeled
+            'Watcher Targeting Module'.
+          </li>
+          <li>
+            Steel Watcher Arm found on a table <span>X: -280 Y: -165</span> on the main floor next to the plaque labeled
+            'Steel Watcher Arm Unit'.
+          </li>
+        </ul>
+      </div>
     ),
   },
   {
@@ -4612,44 +4218,36 @@ export const data: Equipment[] = [
   {
     name: "Blackguard's Sword",
     location: (
-      <ul>
-        <li>
-          Looted from the undead guardian, <WikiLink>That Which Guards</WikiLink>, in the{' '}
-          <WikiLink>Murder Tribunal</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Looted from the undead guardian, <WikiLink>That Which Guards</WikiLink>, in the{' '}
+        <WikiLink>Murder Tribunal</WikiLink>.
+      </div>
     ),
   },
   {
     name: "Blackguard's Plate",
     location: (
-      <ul>
-        <li>
-          Looted from the undead guardian, <WikiLink>That Which Guards</WikiLink>, in the{' '}
-          <WikiLink>Murder Tribunal</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Looted from the undead guardian, <WikiLink>That Which Guards</WikiLink>, in the{' '}
+        <WikiLink>Murder Tribunal</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Shield of the Undevout',
     location: (
-      <ul>
-        <li>
-          Looted from the undead guardian, <WikiLink>That Which Guards</WikiLink>, in the{' '}
-          <WikiLink>Murder Tribunal</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Looted from the undead guardian, <WikiLink>That Which Guards</WikiLink>, in the{' '}
+        <WikiLink>Murder Tribunal</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Sword of Chaos',
     location: (
-      <ul>
-        <li>
-          Looted from <WikiLink>Sarevok</WikiLink> in the <WikiLink>Murder Tribunal</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Looted from <WikiLink>Sarevok</WikiLink> in the <WikiLink>Murder Tribunal</WikiLink>.
+      </div>
     ),
   },
   {
@@ -4681,21 +4279,17 @@ export const data: Equipment[] = [
   {
     name: 'Cloth of Authority',
     location: (
-      <ul>
-        <li>
-          Can be looted from <WikiLink>Enver Gortash</WikiLink> in <WikiLink>Wyrm's Rock</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Can be looted from <WikiLink>Enver Gortash</WikiLink> in <WikiLink>Wyrm's Rock</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Tyrannical Jackboots',
     location: (
-      <ul>
-        <li>
-          Can be looted from <WikiLink>Enver Gortash</WikiLink> in <WikiLink>Wyrm's Rock</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Can be looted from <WikiLink>Enver Gortash</WikiLink> in <WikiLink>Wyrm's Rock</WikiLink>.
+      </div>
     ),
   },
   {
@@ -4711,52 +4305,41 @@ export const data: Equipment[] = [
   {
     name: 'Servitor of the Black Hand Gloves',
     location: (
-      <ul>
-        <li>
-          Found in an Opulent Chest <span>X: -32 Y: 198</span> on the top floor of{' '}
-          <WikiLink>Wyrm's Rock Fortress</WikiLink> in <WikiLink>Wyrm's Crossing</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Found in an Opdivent Chest <span>X: -32 Y: 198</span> on the top floor of{' '}
+        <WikiLink>Wyrm's Rock Fortress</WikiLink> in <WikiLink>Wyrm's Crossing</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Helldusk Boots',
     location: (
-      <ul>
-        <li>
-          Found in a locked Gilded Chest <span>X: -32 Y: 219</span> on the top floor of{' '}
-          <WikiLink>Wyrm's Rock Fortress</WikiLink> in <WikiLink>Wyrm's Crossing</WikiLink>.
-        </li>
-        <li>
-          Taking this item after <WikiLink>Gortash</WikiLink>'s coronation makes Gortash and all Steel Watchers on this
-          floor permanently hostile.
-        </li>
-        <li>Taking this item before the coronation does not turn anyone hostile.</li>
-      </ul>
+      <div>
+        Found in a locked Gilded Chest <span>X: -32 Y: 219</span> on the top floor of{' '}
+        <WikiLink>Wyrm's Rock Fortress</WikiLink> in <WikiLink>Wyrm's Crossing</WikiLink>. Taking this item after{' '}
+        <WikiLink>Gortash</WikiLink>'s coronation makes Gortash and all Steel Watchers on this floor permanently
+        hostile. Taking this item before the coronation does not turn anyone hostile
+      </div>
     ),
   },
   {
     name: 'Staff of the Ram',
     location: (
-      <ul>
-        <li>
-          Found in an Opulent Chest ( X: -1572 Y: 976 ) in <WikiLink>Jaheira's Hideout Basement</WikiLink> under{' '}
-          <WikiLink>Elerrathin's Home</WikiLink> in the <WikiLink>Lower City</WikiLink>. The chest is in a room behind a
-          DC18 locked bookcase ( X: -1562 Y: 980 ).
-        </li>
-      </ul>
+      <div>
+        Found in an Opulent Chest ( X: -1572 Y: 976 ) in <WikiLink>Jaheira's Hideout Basement</WikiLink> under{' '}
+        <WikiLink>Elerrathin's Home</WikiLink> in the <WikiLink>Lower City</WikiLink>. The chest is in a room behind a
+        DC18 locked bookcase ( X: -1562 Y: 980 ).
+      </div>
     ),
   },
   {
     name: 'Belm',
     location: (
-      <ul>
-        <li>
-          Found in an Opulent Chest <span>X: -1572 Y: 976</span> in <WikiLink>Jaheira's Basement</WikiLink> under{' '}
-          <WikiLink>Elerrathin's Home</WikiLink> in the <WikiLink>Lower City</WikiLink>. The chest is in a room behind a
-          DC18 locked bookcase <span>X: -1562 Y: 980</span>.
-        </li>
-      </ul>
+      <div>
+        Found in an Opulent Chest <span>X: -1572 Y: 976</span> in <WikiLink>Jaheira's Basement</WikiLink> under{' '}
+        <WikiLink>Elerrathin's Home</WikiLink> in the <WikiLink>Lower City</WikiLink>. The chest is in a room behind a
+        DC18 locked bookcase <span>X: -1562 Y: 980</span>.
+      </div>
     ),
   },
   {
@@ -4788,12 +4371,10 @@ export const data: Equipment[] = [
   {
     name: "Handmaiden's Mace",
     location: (
-      <ul>
-        <li>
-          Dropped by <WikiLink>Viconia DeVir</WikiLink> <span>X: -400 Y: -1651</span> in the{' '}
-          <WikiLink>Cloister of Sombre Embrace</WikiLink> beneath the <WikiLink>House of Grief</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Dropped by <WikiLink>Viconia DeVir</WikiLink> <span>X: -400 Y: -1651</span> in the{' '}
+        <WikiLink>Cloister of Sombre Embrace</WikiLink> beneath the <WikiLink>House of Grief</WikiLink>.
+      </div>
     ),
   },
   {
@@ -4808,17 +4389,10 @@ export const data: Equipment[] = [
   {
     name: 'Armour of Persistence',
     location: (
-      <ul>
-        <li>
-          This armour can be bought from these traders:
-          <ul>
-            <li>
-              <WikiLink>Dammon</WikiLink> at the <WikiLink>Forge of the Nine</WikiLink> in the{' '}
-              <WikiLink>Lower City</WikiLink> of <WikiLink>Baldur's Gate</WikiLink>
-            </li>
-          </ul>
-        </li>
-      </ul>
+      <div>
+        Sold by <WikiLink>Dammon</WikiLink> at the <WikiLink>Forge of the Nine</WikiLink>, in the{' '}
+        <WikiLink>Lower City</WikiLink>.
+      </div>
     ),
   },
   {
@@ -4834,8 +4408,8 @@ export const data: Equipment[] = [
     name: 'Unwanted Masterwork Scalemail',
     location: (
       <div>
-        Sold by <WikiLink>Dammon</WikiLink> at <WikiLink>Forge of the Nine</WikiLink> during{' '}
-        <WikiLink>Act Three</WikiLink>.
+        Sold by <WikiLink>Dammon</WikiLink> at the <WikiLink>Forge of the Nine</WikiLink>, in the{' '}
+        <WikiLink>Lower City</WikiLink>.
       </div>
     ),
   },
@@ -4850,42 +4424,36 @@ export const data: Equipment[] = [
   {
     name: 'Pelorsun Blade',
     location: (
-      <ul>
-        <li>
-          Found in <WikiLink>Cazador's Dungeon</WikiLink>. From the waypoint, take the second open door on the right.
-          There is a door on the floor below. Teleport or jump down and enter the door. The item is found in this room
-          inside a DC15 trapped Rosewood Casket <span>X: -1928 Y: 852</span>.
-        </li>
-      </ul>
+      <div>
+        Found in <WikiLink>Cazador's Dungeon</WikiLink>. From the waypoint, take the second open door on the right.
+        There is a door on the floor below. Teleport or jump down and enter the door. The item is found in this room
+        inside a DC15 trapped Rosewood Casket <span>X: -1928 Y: 852</span>.
+      </div>
     ),
   },
   {
     name: 'Rhapsody',
     location: (
-      <ul>
-        <li>Affected entity has +1 bonus to </li>
-      </ul>
+      <div>
+        Reward for defeating <WikiLink>Cazador Szarr</WikiLink> during <WikiLink>The Pale Elf</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Woe',
     location: (
-      <ul>
-        <li>
-          Reward for defeating <WikiLink>Cazador Szarr</WikiLink> during <WikiLink>The Pale Elf</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Reward for defeating <WikiLink>Cazador Szarr</WikiLink> during <WikiLink>The Pale Elf</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'The Undead Bane',
     location: (
-      <ul>
-        <li>
-          Carried by <WikiLink>Ulma</WikiLink> in the <WikiLink>Gur Camp</WikiLink>, <WikiLink>Rivington</WikiLink>{' '}
-          <span>X: 100 Y: -17</span>.
-        </li>
-      </ul>
+      <div>
+        Carried by <WikiLink>Ulma</WikiLink> in the <WikiLink>Gur Camp</WikiLink>, <WikiLink>Rivington</WikiLink>{' '}
+        <span>X: 100 Y: -17</span>.
+      </div>
     ),
   },
   {
@@ -4899,23 +4467,17 @@ export const data: Equipment[] = [
   {
     name: 'Cloak of the Weave',
     location: (
-      <ul>
-        <li>
-          Sold by <WikiLink>Helsik</WikiLink> at the <WikiLink>Devil's Fee</WikiLink> once her special stock is
-          unlocked.
-        </li>
-      </ul>
+      <div>
+        Sold by <WikiLink>Helsik</WikiLink> at the <WikiLink>Devil's Fee</WikiLink> once her special stock is unlocked.
+      </div>
     ),
   },
   {
     name: 'Shapeshifter Hat',
     location: (
-      <ul>
-        <li>
-          Sold by <WikiLink>Helsik</WikiLink> at the <WikiLink>Devil's Fee</WikiLink> once her special stock is
-          unlocked.
-        </li>
-      </ul>
+      <div>
+        Sold by <WikiLink>Helsik</WikiLink> at the <WikiLink>Devil's Fee</WikiLink> once her special stock is unlocked.
+      </div>
     ),
   },
   {
@@ -4929,27 +4491,17 @@ export const data: Equipment[] = [
   {
     name: 'Gibus of the Worshipful Servant',
     location: (
-      <ul>
-        <li>
-          Sold by <WikiLink>Helsik</WikiLink> at the <WikiLink>Devil's Fee</WikiLink> once her special stock is
-          unlocked.
-        </li>
-      </ul>
+      <div>
+        Sold by <WikiLink>Helsik</WikiLink> at the <WikiLink>Devil's Fee</WikiLink> once her special stock is unlocked.
+      </div>
     ),
   },
   {
     name: 'Hellbeard Halberd',
     location: (
-      <ul>
-        <li>
-          This weapon can be bought from these traders:
-          <ul>
-            <li>
-              <WikiLink>Helsik</WikiLink> at the <WikiLink>Devil's Fee</WikiLink>, once her special stock is unlocked
-            </li>
-          </ul>
-        </li>
-      </ul>
+      <div>
+        <WikiLink>Helsik</WikiLink> at the <WikiLink>Devil's Fee</WikiLink>, once her special stock is unlocked
+      </div>
     ),
   },
   {
@@ -4963,12 +4515,10 @@ export const data: Equipment[] = [
   {
     name: 'Mask of Soul Perception',
     location: (
-      <ul>
-        <li>
-          Found in a DC20 locked Gilded Chest <span>X: -33 Y: 20</span> in Helsik's Room upstairs at the{' '}
-          <WikiLink>Devil's Fee</WikiLink> in the <WikiLink>Lower City</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Found in a DC20 locked Gilded Chest <span>X: -33 Y: 20</span> in Helsik's Room upstairs at the{' '}
+        <WikiLink>Devil's Fee</WikiLink> in the <WikiLink>Lower City</WikiLink>.
+      </div>
     ),
   },
   {
@@ -4990,63 +4540,50 @@ export const data: Equipment[] = [
   {
     name: 'Burnished Ring',
     location: (
-      <ul>
-        <li>
-          Dropped by a <WikiLink>Spectator</WikiLink> in <WikiLink>Hope's Prison</WikiLink> in the{' '}
-          <WikiLink>House of Hope</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Dropped by a <WikiLink>Spectator</WikiLink> in <WikiLink>Hope's Prison</WikiLink> in the{' '}
+        <WikiLink>House of Hope</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Helldusk Helmet',
     location: (
-      <ul>
-        <li>
-          Found in the <WikiLink>House of Hope</WikiLink> in a vault across from the entrance to the Boudoir. The player
-          will need to pass a DC10 Wisdom check to activate the Inert Infernal Gem and then a DC20 Arcana check to use
-          the Infernal Control Gem to open the door. The helmet will be located in the treasure pile{' '}
-          <span>X: -6482 Y: 2939</span>.
-        </li>
-      </ul>
+      <div>
+        Found in the <WikiLink>House of Hope</WikiLink> in a vault across from the entrance to the Boudoir. The player
+        will need to pass a DC10 Wisdom check to activate the Inert Infernal Gem and then a DC20 Arcana check to use the
+        Infernal Control Gem to open the door. The helmet will be located in the treasure pile{' '}
+        <span>X: -6482 Y: 2939</span>.
+      </div>
     ),
   },
   {
     name: 'Staff of Spellpower',
     location: (
-      <ul>
-        <li>
-          Found in the <WikiLink>House of Hope</WikiLink> in a vault across from the entrance to the Boudoir. The player
-          will need to pass a DC10 Wisdom check to activate the Inert Infernal Gem and then a DC20 Arcana check to use
-          the Infernal Control Gem to open the door. The staff will be located on a stone pedestal to the right{' '}
-          <span>X: -6486 Y: 2939</span>.
-        </li>
-      </ul>
+      <div>
+        Found in the <WikiLink>House of Hope</WikiLink> in a vault across from the entrance to the Boudoir. The player
+        will need to pass a DC10 Wisdom check to activate the Inert Infernal Gem and then a DC20 Arcana check to use the
+        Infernal Control Gem to open the door. The staff will be located on a stone pedestal to the right{' '}
+        <span>X: -6486 Y: 2939</span>.
+      </div>
     ),
   },
   {
     name: 'Helldusk Gloves',
     location: (
-      <ul>
-        <li>
-          Dropped by <WikiLink>Haarlep</WikiLink> in the <WikiLink>House of Hope</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Dropped by <WikiLink>Haarlep</WikiLink> in the <WikiLink>House of Hope</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Orphic Hammer',
     location: (
-      <ul>
-        <li>
-          The <WikiLink>Orphic Hammer</WikiLink> can be obtained by making a deal with <WikiLink>Raphael</WikiLink> as
-          part of the quest <WikiLink>Deal with the Devil</WikiLink>.
-        </li>
-        <li>
-          If a deal was not made with <WikiLink>Raphael</WikiLink>, the hammer can instead be stolen from the Archive
-          within the <WikiLink>House of Hope</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Can be obtained by making a deal with <WikiLink>Raphael</WikiLink> as part of the quest{' '}
+        <WikiLink>Deal with the Devil</WikiLink>. If a deal was not made with <WikiLink>Raphael</WikiLink>, the hammer
+        can instead be stolen from the Archive within the <WikiLink>House of Hope</WikiLink>.
+      </div>
     ),
   },
   {
@@ -5086,32 +4623,26 @@ export const data: Equipment[] = [
   {
     name: 'Bloodthirst',
     location: (
-      <ul>
-        <li>
-          Reward for defeating <WikiLink>Orin</WikiLink> during <WikiLink>Get Orin's Netherstone</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Reward for defeating <WikiLink>Orin</WikiLink> during <WikiLink>Get Orin's Netherstone</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Crimson Mischief',
     location: (
-      <ul>
-        <li>
-          Dropped by <WikiLink>Orin</WikiLink> during <WikiLink>Get Orin's Netherstone</WikiLink> in{' '}
-          <WikiLink>Act Three</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Dropped by <WikiLink>Orin</WikiLink> during <WikiLink>Get Orin's Netherstone</WikiLink> in{' '}
+        <WikiLink>Act Three</WikiLink>.
+      </div>
     ),
   },
   {
     name: 'Orphic Ring',
     location: (
-      <ul>
-        <li>
-          Carried by <WikiLink>Orpheus</WikiLink>.
-        </li>
-      </ul>
+      <div>
+        Carried by <WikiLink>Orpheus</WikiLink>.
+      </div>
     ),
   },
 ];
