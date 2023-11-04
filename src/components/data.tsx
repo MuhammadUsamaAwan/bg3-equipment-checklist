@@ -459,7 +459,15 @@ export const data: Equipment[] = [
       </div>
     ),
   },
-  { name: 'Shattered Flail', location: '' },
+  {
+    name: 'Shattered Flail',
+    location: (
+      <div>
+        Dropped by the <WikiLink>Flind</WikiLink>, 'leader' of the group of <WikiLink>Gnoll</WikiLink>s attacking the
+        Zhentarim caravan on <WikiLink>The Risen Road</WikiLink>.
+      </div>
+    ),
+  },
   {
     name: "Reason's Grasp",
     location: (
@@ -824,7 +832,14 @@ export const data: Equipment[] = [
       </ul>
     ),
   },
-  { name: "Hunter's Dagger", location: '' },
+  {
+    name: "Hunter's Dagger",
+    location: (
+      <div>
+        This weapon can be bought from <WikiLink>Roah Moonglow</WikiLink> in the <WikiLink>Shattered Sanctum</WikiLink>.{' '}
+      </div>
+    ),
+  },
   {
     name: "Wapira's Crown",
     location: (
