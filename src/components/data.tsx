@@ -589,6 +589,27 @@ export const data: Equipment[] = [
     ),
   },
   {
+    name: "Svartlebee's Woundseeker",
+    location: (
+      <div>
+        <ul>
+          <li>
+            Looted from <WikiLink>Gauntlet Yeva</WikiLink> in <WikiLink>Waukeen's Rest</WikiLink> X: -66 Y: 609 in Act
+            1. Has to be acquired before the first zone travel (including teleporting to your camp) after coming to
+            Waukeen's Rest for the first time. If you come to the area after travelling to a different zone, Yeva will
+            be gone.
+          </li>
+          <li>
+            Can also be obtained from <WikiLink>Gauntlet Yeva</WikiLink> in the Tadpoling Centre within the{' '}
+            <WikiLink>Mind Flayer Colony</WikiLink> in Act 2. One method to keep her non-hostile is to use a{' '}
+            <WikiLink>Disarming</WikiLink> action on her during the fight where she appears. As long as you do not kill
+            her, she will remain an ally.
+          </li>
+        </ul>
+      </div>
+    ),
+  },
+  {
     name: 'Abyss Beckoners',
     location: (
       <div>
@@ -643,6 +664,14 @@ export const data: Equipment[] = [
       <div>
         Worn by <WikiLink>Crusher</WikiLink> in the <WikiLink>Goblin Camp</WikiLink>. You can slip the ring off his toe
         when he demands you kiss his feet, or kill Crusher to take it off his body.
+      </div>
+    ),
+  },
+  {
+    name: 'Jagged Spear',
+    location: (
+      <div>
+        On the ground near Torturer Spike in the <WikiLink>Shattered Sanctum</WikiLink> X: 334 Y: -37.
       </div>
     ),
   },
@@ -889,6 +918,15 @@ export const data: Equipment[] = [
     location: (
       <div>
         Found in a chest in <WikiLink>Minthara</WikiLink>'s area of the <WikiLink>Shattered Sanctum</WikiLink>.
+      </div>
+    ),
+  },
+  {
+    name: 'Ring of Poison Resistance',
+    location: (
+      <div>
+        Found on a skeleton inside a sarcophagus just before the <WikiLink>Worg Pens</WikiLink> area of the{' '}
+        <WikiLink>Shattered Sanctum</WikiLink> X: 338 Y: 14
       </div>
     ),
   },
